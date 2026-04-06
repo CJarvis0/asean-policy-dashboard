@@ -127,6 +127,26 @@ html, body, [class*="css"] {{
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }}
 
+.main .block-container {{
+    max-width: 1420px;
+    padding-top: 1.1rem;
+    padding-bottom: 2.2rem;
+}}
+
+h2 {{
+    letter-spacing: -0.01em;
+    margin-bottom: 0.45rem;
+}}
+
+h3 {{
+    margin-top: 1.1rem;
+    margin-bottom: 0.4rem;
+}}
+
+h4, h5 {{
+    margin-bottom: 0.3rem;
+}}
+
 /* == Sidebar (always dark, self-contained) == */
 section[data-testid="stSidebar"] {{
     background: linear-gradient(180deg, {COLORS["primary"]} 0%, #0f1d36 100%);
@@ -231,6 +251,35 @@ section[data-testid="stSidebar"] .stMarkdown a {{
     margin-bottom: 1.2rem;
 }}
 
+/* == Insight Callout == */
+.insight-callout {{
+    background: var(--secondary-background-color);
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-left: 4px solid {COLORS["secondary"]};
+    border-radius: 8px;
+    padding: 0.7rem 0.95rem;
+    margin: 0.45rem 0 1rem;
+}}
+
+.insight-callout .insight-title {{
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    opacity: 0.75;
+    margin-bottom: 0.25rem;
+}}
+
+.insight-callout .insight-text {{
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--text-color);
+}}
+
+.insight-neutral {{ border-left-color: {COLORS["secondary"]}; }}
+.insight-positive {{ border-left-color: {COLORS["success"]}; }}
+.insight-risk {{ border-left-color: {COLORS["danger"]}; }}
+
 /* == KPI Grid (custom cards for predictive analytics) == */
 .kpi-grid {{
     display: grid;
@@ -286,29 +335,87 @@ section[data-testid="stSidebar"] .stMarkdown a {{
 /* == Story Cards (theme-aware) == */
 .story-card {{
     background: var(--secondary-background-color);
-    border-radius: 10px;
-    padding: 1.2rem 1.5rem;
+    border-radius: 12px;
+    padding: 1.15rem 1.3rem;
+    border: 1px solid rgba(148, 163, 184, 0.2);
     border-left: 4px solid {COLORS["accent"]};
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    margin-bottom: 1rem;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    margin-bottom: 1.05rem;
+}}
+.story-card-top {{
+    display: flex;
+    gap: 0.45rem;
+    align-items: center;
+    margin-bottom: 0.55rem;
+    flex-wrap: wrap;
+}}
+.story-id {{
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: rgba(148, 163, 184, 0.16);
+    color: var(--text-color);
 }}
 .story-card .story-type {{
     display: inline-block;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.68rem;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     padding: 2px 8px;
     border-radius: 4px;
-    margin-bottom: 0.4rem;
 }}
 .story-type-descriptive {{ background: rgba(56,178,172,0.15); color: {COLORS["secondary"]}; }}
 .story-type-predictive {{ background: rgba(49,130,206,0.15); color: #3182CE; }}
 .story-type-prescriptive {{ background: rgba(229,62,62,0.15); color: {COLORS["danger"]}; }}
 
-.story-card h4 {{ margin: 0.3rem 0 0.2rem; color: var(--text-color); }}
-.story-card .persona {{ font-size: 0.82rem; color: var(--text-color); opacity: 0.6; margin-bottom: 0.3rem; }}
-.story-card .goal {{ font-size: 0.88rem; color: var(--text-color); opacity: 0.85; }}
+.story-card h4 {{ margin: 0.2rem 0 0.35rem; color: var(--text-color); font-size: 1.06rem; }}
+.story-card .persona {{ font-size: 0.82rem; color: var(--text-color); opacity: 0.66; margin-bottom: 0.5rem; }}
+.story-card .goal {{ font-size: 0.89rem; color: var(--text-color); opacity: 0.87; line-height: 1.5; }}
+
+/* == Story Layout Blocks == */
+.story-section {{
+    margin-top: 0.55rem;
+    margin-bottom: 0.35rem;
+}}
+.story-section .story-section-label {{
+    font-size: 0.67rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-color);
+    opacity: 0.62;
+    margin-bottom: 0.15rem;
+}}
+.story-section .story-section-title {{
+    font-size: 1rem;
+    font-weight: 650;
+    color: var(--text-color);
+}}
+.story-section .story-section-subtitle {{
+    font-size: 0.86rem;
+    color: var(--text-color);
+    opacity: 0.72;
+    margin-top: 0.14rem;
+    margin-bottom: 0.3rem;
+}}
+
+.story-placeholder {{
+    background: var(--secondary-background-color);
+    border: 1px dashed rgba(148, 163, 184, 0.45);
+    border-radius: 10px;
+    padding: 0.9rem 1rem;
+    margin-top: 0.35rem;
+    margin-bottom: 0.55rem;
+}}
+.story-placeholder strong {{
+    font-size: 0.86rem;
+    letter-spacing: 0.01em;
+}}
 
 /* == Recommendation Pills (theme-aware) == */
 .rec-pill {{
@@ -449,6 +556,41 @@ def _pretty(name: str) -> str:
     return TARGET_LABELS.get(name, name.replace("_", " ").title())
 
 
+def _insight_callout(title: str, text: str, tone: str = "neutral") -> None:
+    tone_class = tone if tone in {"neutral", "positive", "risk"} else "neutral"
+    st.markdown(
+        f'<div class="insight-callout insight-{tone_class}">'
+        f'<div class="insight-title">{title}</div>'
+        f'<div class="insight-text">{text}</div>'
+        f"</div>",
+        unsafe_allow_html=True,
+    )
+
+
+def _risk_scale() -> alt.Scale:
+    return alt.Scale(range=["#FECACA", COLORS["danger"]])
+
+
+def _neutral_scale() -> alt.Scale:
+    return alt.Scale(range=["#BFDBFE", COLORS["secondary"]])
+
+
+def _story_section(title: str, subtitle: str = "", label: str = "Narrative") -> None:
+    subtitle_html = f'<div class="story-section-subtitle">{subtitle}</div>' if subtitle else ""
+    st.markdown(
+        f'<div class="story-section">'
+        f'<div class="story-section-label">{label}</div>'
+        f'<div class="story-section-title">{title}</div>'
+        f"{subtitle_html}"
+        f"</div>",
+        unsafe_allow_html=True,
+    )
+
+
+def _story_takeaway(text: str, tone: str = "neutral") -> None:
+    _insight_callout("Analyst Takeaway", text, tone=tone)
+
+
 def _section_intro(text: str) -> None:
     """Render a styled introductory paragraph for a dashboard section."""
     st.markdown(f'<div class="section-intro">{text}</div>', unsafe_allow_html=True)
@@ -554,6 +696,27 @@ def _render_data_explorer(df: pd.DataFrame) -> None:
         & (df["year"] <= year_range[1])
     ].copy()
 
+    c1, c2, c3 = st.columns(3)
+    c1.metric("Countries in View", int(filtered["country"].nunique()))
+    c2.metric("Rows in View", f"{len(filtered):,}")
+    if filtered.empty:
+        c3.metric("Year Span", "—")
+        _insight_callout(
+            "Filter Result",
+            "No rows match the current filters. Adjust country selection or year range.",
+            tone="risk",
+        )
+        st.warning("No data available for the selected filters.")
+        return
+    c3.metric("Year Span", f"{int(filtered['year'].min())}\u2013{int(filtered['year'].max())}")
+    _insight_callout(
+        "Data Explorer Insight",
+        f"Current view includes {filtered['country'].nunique()} countries across "
+        f"{int(filtered['year'].min())}\u2013{int(filtered['year'].max())}, "
+        f"with {len(filtered):,} observations ready for export.",
+        tone="neutral",
+    )
+
     display_columns = st.multiselect(
         "Columns to Display",
         options=list(filtered.columns),
@@ -626,7 +789,16 @@ def _render_descriptive_analytics(df: pd.DataFrame) -> None:
     if "life_expectancy" in year_df.columns:
         c4.metric("Avg Life Expectancy", f"{year_df['life_expectancy'].mean():.1f} yrs")
 
-    st.markdown("")  # spacer
+    insight_parts: List[str] = [f"{selected_year} snapshot: {len(year_df)} observations"]
+    if "gini_index" in year_df.columns and year_df["gini_index"].notna().any():
+        insight_parts.append(f"avg Gini {year_df['gini_index'].mean():.2f}")
+    if "life_expectancy" in year_df.columns and year_df["life_expectancy"].notna().any():
+        insight_parts.append(f"avg life expectancy {year_df['life_expectancy'].mean():.1f} years")
+    _insight_callout(
+        "Snapshot Insight",
+        "; ".join(insight_parts) + ".",
+        tone="neutral",
+    )
 
     numeric_columns = [c for c in df.select_dtypes(include="number").columns if c != "year"]
     if not numeric_columns:
@@ -668,7 +840,7 @@ def _render_descriptive_analytics(df: pd.DataFrame) -> None:
             .encode(
                 x=alt.X(f"{metric}:Q", title=_pretty(metric)),
                 y=alt.Y("country:N", sort="x", title=""),
-                color=alt.value(COLORS["accent"]),
+                color=alt.value(COLORS["danger"]),
                 tooltip=["country:N", alt.Tooltip(f"{metric}:Q", format=",.2f")],
             )
             .properties(height=320)
@@ -814,6 +986,15 @@ def _render_predictive_analytics() -> None:
         unsafe_allow_html=True,
     )
 
+    best_r2 = float(best_row["r2"])
+    model_tone = "positive" if best_r2 >= 0.75 else "neutral" if best_r2 >= 0.40 else "risk"
+    _insight_callout(
+        "Model Readout",
+        f"For {_pretty(target)}, {best_model_name} currently performs best "
+        f"(RMSE {float(best_row['rmse']):,.2f}, MAE {float(best_row['mae']):,.2f}, R\u00b2 {best_r2:.3f}).",
+        tone=model_tone,
+    )
+
     # Full results table
     with st.expander("Full Model Comparison Table", expanded=False):
         st.dataframe(results_df, use_container_width=True, hide_index=True)
@@ -946,7 +1127,7 @@ def _render_predictive_analytics() -> None:
                     .encode(
                         x=alt.X("rmse:Q", title="RMSE"),
                         y=alt.Y("country:N", sort="-x", title=""),
-                        color=alt.Color("rmse:Q", scale=alt.Scale(scheme="orangered"), legend=None),
+                        color=alt.Color("rmse:Q", scale=_risk_scale(), legend=None),
                         tooltip=[
                             alt.Tooltip("country:N"),
                             alt.Tooltip("n_test_rows:Q", title="Test Rows"),
@@ -978,7 +1159,7 @@ def _render_predictive_analytics() -> None:
             .encode(
                 x=alt.X("importance:Q", title="Importance"),
                 y=alt.Y("feature:N", sort="-x", title=""),
-                color=alt.Color("importance:Q", scale=alt.Scale(scheme="tealblues"), legend=None),
+                color=alt.Color("importance:Q", scale=_neutral_scale(), legend=None),
                 tooltip=[alt.Tooltip("feature:N"), alt.Tooltip("importance:Q", format=".4f")],
             )
             .properties(height=max(250, top_n * 28))
@@ -1050,6 +1231,9 @@ def _render_econometric_results() -> None:
     fe_path = RESULTS_DIR / "fixed_effects_summary.txt"
     vif_path = RESULTS_DIR / "fixed_effects_vif.csv"
     cleaned_path = MODELING_CLEANED_PATH
+    ols_available = ols_path.exists()
+    fe_available = fe_path.exists()
+    vif_available = vif_path.exists()
 
     if cleaned_path.exists():
         cleaned_df = pd.read_csv(cleaned_path)
@@ -1058,22 +1242,37 @@ def _render_econometric_results() -> None:
         c2.metric("Years", int(cleaned_df["year"].nunique()))
         c3.metric("Observations", f"{len(cleaned_df):,}")
 
-    if ols_path.exists():
+    _insight_callout(
+        "Econometric Status",
+        f"OLS summary: {'available' if ols_available else 'missing'}; "
+        f"Panel fixed-effects summary: {'available' if fe_available else 'missing'}; "
+        f"VIF diagnostics: {'available' if vif_available else 'missing'}.",
+        tone="positive" if (ols_available and fe_available and vif_available) else "neutral",
+    )
+
+    if ols_available:
         with st.expander("OLS Regression Summary", expanded=False):
             st.caption("Pooled OLS treats all observations as independent\u200a\u2014\u200aa useful baseline but does not account for country-level heterogeneity.")
             st.code(ols_path.read_text(encoding="utf-8"), language="text")
     else:
         st.info("OLS summary not found.")
 
-    if fe_path.exists():
+    if fe_available:
         with st.expander("Panel OLS (Fixed Effects) Summary", expanded=True):
             st.caption("Fixed effects absorb time-invariant country characteristics, providing more reliable estimates of within-country relationships.")
             st.code(fe_path.read_text(encoding="utf-8"), language="text")
     else:
         st.info("Fixed effects summary not found.")
 
-    if vif_path.exists():
+    if vif_available:
         vif_df = pd.read_csv(vif_path).sort_values("vif", ascending=False)
+        if not vif_df.empty:
+            max_vif = float(vif_df["vif"].max())
+            _insight_callout(
+                "Collinearity Signal",
+                f"Maximum VIF is {max_vif:.2f}. Values above 10 indicate stronger multicollinearity risk.",
+                tone="risk" if max_vif > 10 else "neutral",
+            )
         st.markdown("#### VIF Diagnostics")
         st.caption(
             "Variance Inflation Factor measures how much a predictor correlates with others. "
@@ -1112,8 +1311,9 @@ def _render_econometric_results() -> None:
 
 # ── Tab: What-If Simulation ─────────────────────────────────────────────────
 
-def _render_simulation(df: pd.DataFrame, key_prefix: str = "sim") -> None:
-    st.header("What-If Simulation")
+def _render_simulation(df: pd.DataFrame, key_prefix: str = "sim", show_header: bool = True) -> None:
+    if show_header:
+        st.header("What-If Simulation")
     _section_intro(
         "This section is pending implementation. "
         "TODO: complete Story 6 scenario engine with baseline-vs-scenario outcome deltas."
@@ -1156,14 +1356,21 @@ def _render_story_mode(df: pd.DataFrame) -> None:
     type_lower = story["type"].lower()
     st.markdown(
         f'<div class="story-card">'
+        f'<div class="story-card-top">'
+        f'<span class="story-id">{story["id"]}</span>'
         f'<span class="story-type story-type-{type_lower}">{story["type"]}</span>'
+        f"</div>"
         f'<h4>{story["title"]}</h4>'
         f'<div class="persona">Persona: {story["persona"]}</div>'
         f'<div class="goal">{story["description"]}</div>'
         f'</div>',
         unsafe_allow_html=True,
     )
-    st.markdown("")
+    _story_section(
+        "Context → Evidence → Takeaway",
+        "Each story is structured for presentation flow: context first, supporting visuals second, decision takeaway last.",
+        label="Flow",
+    )
 
     model_tables = load_model_result_tables(RESULTS_DIR)
     prediction_tables = load_target_tables(RESULTS_DIR, "predictions_")
@@ -1177,18 +1384,39 @@ def _render_story_mode(df: pd.DataFrame) -> None:
             st.warning("No records found for selected country.")
             return
 
+        _story_section(
+            "Country Snapshot",
+            f"Focus on {country} to compare inequality and growth indicators against the current ASEAN average.",
+            label="Context",
+        )
         latest = country_df.iloc[-1]
         asean_latest = df[df["year"] == df["year"].max()]
         c1, c2, c3 = st.columns(3)
         c1.metric("Latest Gini", f"{latest.get('gini_index', np.nan):.2f}")
         c2.metric("GDP per Capita", f"${latest.get('gdp_per_capita', np.nan):,.0f}")
+        gini_diff = np.nan
         if "gini_index" in asean_latest.columns:
-            diff = latest["gini_index"] - asean_latest["gini_index"].mean()
-            c3.metric("Gini vs ASEAN Avg", f"{diff:+.2f}", delta=f"{diff:+.2f}", delta_color="inverse")
+            gini_diff = latest["gini_index"] - asean_latest["gini_index"].mean()
+            c3.metric("Gini vs ASEAN Avg", f"{gini_diff:+.2f}", delta=f"{gini_diff:+.2f}", delta_color="inverse")
 
+        if not pd.isna(gini_diff):
+            tone = "risk" if gini_diff > 0 else "positive"
+            direction = "above" if gini_diff > 0 else "below"
+            _story_takeaway(
+                f"{country}'s latest inequality level is {abs(float(gini_diff)):.2f} points {direction} the ASEAN average.",
+                tone=tone,
+            )
+
+        _story_section(
+            "Indicator Trends",
+            "Read all three charts together to assess inequality trajectory, economic capacity, and trade posture.",
+            label="Evidence",
+        )
         for col_name, label in [("gini_index", "Inequality (Gini Index)"), ("gdp_per_capita", "GDP per Capita"), ("trade_percent_gdp", "Trade Openness (% GDP)")]:
             if col_name not in country_df.columns:
                 continue
+            st.markdown(f"##### {label}")
+            st.caption("Trend by year for the selected country.")
             chart_df = country_df[["year", col_name]].dropna()
             chart = (
                 alt.Chart(chart_df)
@@ -1204,13 +1432,18 @@ def _render_story_mode(df: pd.DataFrame) -> None:
                     y=alt.Y(f"{col_name}:Q", title=label),
                     tooltip=["year:O", alt.Tooltip(f"{col_name}:Q", format=",.2f")],
                 )
-                .properties(height=260, title=label)
+                .properties(height=260)
             )
             st.altair_chart(chart, use_container_width=True)
 
-        st.markdown("#### Current Policy Recommendations")
-        st.info(
-            "This section is pending implementation. TODO: complete recommendation engine outputs for Story 5."
+        _story_section(
+            "Decision Layer",
+            "Policy recommendation details for this story are intentionally pending implementation.",
+            label="Takeaway",
+        )
+        st.markdown(
+            '<div class="story-placeholder"><strong>Pending:</strong> Complete recommendation engine outputs for Story 5 and connect them here.</div>',
+            unsafe_allow_html=True,
         )
 
     # ── Story 2: ASEAN-Wide Inequality Monitoring ──
@@ -1218,6 +1451,11 @@ def _render_story_mode(df: pd.DataFrame) -> None:
         if "gini_index" not in df.columns:
             st.warning("`gini_index` is required for this story.")
             return
+        _story_section(
+            "Regional Inequality Monitoring",
+            "Track both central tendency and spread to understand whether inequality is converging or diverging across countries.",
+            label="Context",
+        )
         trend = (
             df.groupby("year", as_index=False)["gini_index"]
             .agg(mean_gini="mean", median_gini="median")
@@ -1233,7 +1471,21 @@ def _render_story_mode(df: pd.DataFrame) -> None:
         gap["gap_p90_p10"] = gap["p90"] - gap["p10"]
         merged = trend.merge(gap[["year", "gap_p90_p10"]], on="year", how="left")
 
+        if not merged.empty and merged["gap_p90_p10"].notna().any():
+            gap_change = float(merged["gap_p90_p10"].iloc[-1] - merged["gap_p90_p10"].iloc[0])
+            trend_tone = "risk" if gap_change > 0 else "positive"
+            trend_dir = "widened" if gap_change > 0 else "narrowed"
+            _story_takeaway(
+                f"The p90-p10 inequality spread has {trend_dir} by {abs(gap_change):.3f} points over the observed period.",
+                tone=trend_tone,
+            )
+
         chart_data = merged.melt("year", var_name="Series", value_name="Value")
+        _story_section(
+            "ASEAN Trend View",
+            "Mean, median, and spread (p90-p10 gap) provide a compact regional trajectory view.",
+            label="Evidence",
+        )
         trend_chart = (
             alt.Chart(chart_data)
             .mark_line(point=True)
@@ -1244,12 +1496,17 @@ def _render_story_mode(df: pd.DataFrame) -> None:
                 strokeDash=alt.StrokeDash("Series:N"),
                 tooltip=["year:O", "Series:N", alt.Tooltip("Value:Q", format=".3f")],
             )
-            .properties(height=380, title="ASEAN Inequality Trends")
+            .properties(height=380)
             .interactive()
         )
         st.altair_chart(trend_chart, use_container_width=True)
 
         latest_year = int(df["year"].max())
+        _story_section(
+            "Latest-Year Country Ranking",
+            f"Cross-sectional ordering for {latest_year} highlights countries with comparatively higher inequality levels.",
+            label="Evidence",
+        )
         latest_df = df[df["year"] == latest_year][["country", "gini_index"]].sort_values("gini_index", ascending=False)
         bar = (
             alt.Chart(latest_df)
@@ -1257,7 +1514,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
             .encode(
                 x=alt.X("gini_index:Q", title=f"Gini Index ({latest_year})"),
                 y=alt.Y("country:N", sort="-x", title=""),
-                color=alt.Color("gini_index:Q", scale=alt.Scale(scheme="orangered"), legend=None),
+                color=alt.Color("gini_index:Q", scale=_risk_scale(), legend=None),
                 tooltip=["country:N", alt.Tooltip("gini_index:Q", format=".3f")],
             )
             .properties(height=max(250, len(latest_df) * 24))
@@ -1266,34 +1523,55 @@ def _render_story_mode(df: pd.DataFrame) -> None:
 
     # ── Story 3: Gini + Trade Prediction ──
     elif story["id"] == "Story 3":
+        _story_section(
+            "Trade and Inequality Signal",
+            "Assess whether trade openness is informative for forecasting inequality and where model limits remain.",
+            label="Context",
+        )
         gini_results = model_tables.get("gini_index")
         if gini_results is not None:
             st.markdown("#### Gini Prediction Model Performance")
-            st.dataframe(gini_results.sort_values("rmse"), use_container_width=True, hide_index=True)
+            gini_sorted = gini_results.sort_values("rmse")
+            st.dataframe(gini_sorted, use_container_width=True, hide_index=True)
+            if not gini_sorted.empty:
+                gini_best = gini_sorted.iloc[0]
+                gini_r2 = float(gini_best.get("r2", np.nan))
+                tone = "risk" if pd.notna(gini_r2) and gini_r2 < 0.20 else "neutral"
+                _story_takeaway(
+                    f"Best current Gini model: {str(gini_best['model']).replace('_', ' ').title()} "
+                    f"(R\u00b2 {gini_r2:.3f}, RMSE {float(gini_best['rmse']):.3f}).",
+                    tone=tone,
+                )
         else:
             st.warning("Run predictive models to populate Gini model results.")
 
         if {"trade_percent_gdp", "gini_index"}.issubset(df.columns):
             st.markdown("#### Trade Openness vs. Inequality")
-            st.caption("Each dot is a country-year. The black line is a linear regression fit.")
+            st.caption("Each dot is a country-year. The red dashed line is a linear regression fit.")
             sampled = df[["country", "year", "trade_percent_gdp", "gini_index"]].dropna()
             scatter = (
                 alt.Chart(sampled)
-                .mark_circle(size=60, opacity=0.5)
+                .mark_circle(size=62, opacity=0.5, color=COLORS["secondary"])
                 .encode(
                     x=alt.X("trade_percent_gdp:Q", title="Trade (% GDP)"),
                     y=alt.Y("gini_index:Q", title="Gini Index"),
-                    color=alt.Color("country:N", title="Country"),
                     tooltip=["country:N", "year:Q",
                              alt.Tooltip("trade_percent_gdp:Q", format=",.1f"),
                              alt.Tooltip("gini_index:Q", format=".3f")],
                 )
             )
-            trend_line = scatter.transform_regression("trade_percent_gdp", "gini_index").mark_line(color="black", strokeDash=[6, 4])
+            trend_line = scatter.transform_regression("trade_percent_gdp", "gini_index").mark_line(
+                color=COLORS["danger"], strokeDash=[6, 4]
+            )
             st.altair_chart((scatter + trend_line).interactive().properties(height=400), use_container_width=True)
 
         preds = prediction_tables.get("gini_index")
         if preds is not None and not preds.empty:
+            _story_section(
+                "Model Behavior Over Time",
+                "Compare predicted and actual inequality trajectories to spot bias and drift across years.",
+                label="Evidence",
+            )
             st.markdown("#### Predicted vs. Actual Gini Over Time")
             best_model = (
                 gini_results.sort_values("rmse").iloc[0]["model"]
@@ -1318,6 +1596,11 @@ def _render_story_mode(df: pd.DataFrame) -> None:
 
     # ── Story 4: GDP Competitiveness ──
     elif story["id"] == "Story 4":
+        _story_section(
+            "GDP Growth Competitiveness",
+            "Evaluate which GDP target formulation is modeled more reliably, then inspect where country-level errors concentrate.",
+            label="Context",
+        )
         target_choice = st.radio(
             "GDP Target View",
             options=["gdp_per_capita", "log_gdp_per_capita"],
@@ -1328,7 +1611,17 @@ def _render_story_mode(df: pd.DataFrame) -> None:
         target_results = model_tables.get(target_choice)
         if target_results is not None:
             st.markdown(f"#### {_pretty(target_choice)} Model Performance")
-            st.dataframe(target_results.sort_values("rmse"), use_container_width=True, hide_index=True)
+            target_sorted = target_results.sort_values("rmse")
+            st.dataframe(target_sorted, use_container_width=True, hide_index=True)
+            if not target_sorted.empty:
+                best = target_sorted.iloc[0]
+                best_r2 = float(best.get("r2", np.nan))
+                tone = "positive" if pd.notna(best_r2) and best_r2 >= 0.75 else "neutral"
+                _story_takeaway(
+                    f"Best {_pretty(target_choice)} model: {str(best['model']).replace('_', ' ').title()} "
+                    f"(R\u00b2 {best_r2:.3f}, RMSE {float(best['rmse']):,.2f}).",
+                    tone=tone,
+                )
         else:
             st.warning(f"No predictive table found for {_pretty(target_choice)}.")
             return
@@ -1340,6 +1633,11 @@ def _render_story_mode(df: pd.DataFrame) -> None:
         best_model = target_results.sort_values("rmse").iloc[0]["model"]
         p = preds[preds["model"] == best_model].copy()
 
+        _story_section(
+            "ASEAN Average Trajectory",
+            "Check whether predicted macro trend follows the observed direction and turning points.",
+            label="Evidence",
+        )
         st.markdown("#### ASEAN-Average Actual vs. Predicted Over Time")
         years_view = p.groupby("year", as_index=False)[["actual", "predicted"]].mean().sort_values("year")
         chart_data = years_view.melt("year", var_name="Series", value_name="Value")
@@ -1357,6 +1655,11 @@ def _render_story_mode(df: pd.DataFrame) -> None:
         )
         st.altair_chart(chart, use_container_width=True)
 
+        _story_section(
+            "Country-Level Error Concentration",
+            "Higher bars indicate where the selected model is less stable and needs country-specific diagnostics.",
+            label="Evidence",
+        )
         st.markdown("#### Country-Level Prediction Error")
         st.caption("Countries with higher mean absolute error may have unusual economic dynamics worth investigating.")
         country_err = (
@@ -1371,7 +1674,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
             .encode(
                 x=alt.X("abs_error:Q", title="Mean Absolute Error"),
                 y=alt.Y("country:N", sort="-x", title=""),
-                color=alt.Color("abs_error:Q", scale=alt.Scale(scheme="orangered"), legend=None),
+                color=alt.Color("abs_error:Q", scale=_risk_scale(), legend=None),
                 tooltip=["country:N", alt.Tooltip("abs_error:Q", format=",.2f")],
             )
             .properties(height=max(250, len(country_err) * 24))
@@ -1380,15 +1683,24 @@ def _render_story_mode(df: pd.DataFrame) -> None:
 
     # ── Story 5: Ranked Policy Priorities ──
     elif story["id"] == "Story 5":
-        st.markdown("#### Ranked Policy Priorities")
-        st.info(
-            "TODO: Story 5 implementation pending. Future work will include scoring logic, "
-            "country ranking, and grouped policy themes."
+        _story_section(
+            "Ranked Policy Priorities",
+            "This prescriptive story is intentionally reserved for upcoming implementation work.",
+            label="Takeaway",
+        )
+        st.markdown(
+            '<div class="story-placeholder"><strong>Pending:</strong> Add recommendation scoring logic, country ranking view, and grouped policy themes.</div>',
+            unsafe_allow_html=True,
         )
 
     # ── Story 6: What-If Simulation ──
     elif story["id"] == "Story 6":
-        _render_simulation(df, key_prefix="story6")
+        _story_section(
+            "What-If Reform Simulation",
+            "Scenario controls and impact deltas are planned and will be added in a future sprint.",
+            label="Takeaway",
+        )
+        _render_simulation(df, key_prefix="story6", show_header=False)
 
 
 # ── Footer ──────────────────────────────────────────────────────────────────
