@@ -1,0 +1,5772 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 20000,
+    "total": 360,
+    "sourceid": "2",
+    "lastupdated": "2025-12-19"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2023",
+      "value": 6.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2022",
+      "value": 7.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2021",
+      "value": 6.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2020",
+      "value": 6.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2019",
+      "value": 6.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2018",
+      "value": 6.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2017",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2016",
+      "value": 6.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2015",
+      "value": 6.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2014",
+      "value": 6.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2013",
+      "value": 6.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2012",
+      "value": 6.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2011",
+      "value": 6.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2010",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2009",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2008",
+      "value": 6.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2007",
+      "value": 6.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2006",
+      "value": 6.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2005",
+      "value": 6.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2004",
+      "value": 6.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2003",
+      "value": 6.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2002",
+      "value": 6.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2001",
+      "value": 6.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2000",
+      "value": 6.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2023",
+      "value": 7.077,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2022",
+      "value": 7.539,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2021",
+      "value": 8.366,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2020",
+      "value": 7.502,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2019",
+      "value": 6.452,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2018",
+      "value": 6.337,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2017",
+      "value": 6.256,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2016",
+      "value": 6.226,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2015",
+      "value": 6.045,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2014",
+      "value": 5.998,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2013",
+      "value": 5.924,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2012",
+      "value": 5.881,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2011",
+      "value": 5.843,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2010",
+      "value": 5.801,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2009",
+      "value": 5.784,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2008",
+      "value": 5.778,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2007",
+      "value": 5.793,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2006",
+      "value": 5.836,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2005",
+      "value": 5.896,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2004",
+      "value": 5.96,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2003",
+      "value": 6.033,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2002",
+      "value": 6.126,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2001",
+      "value": 6.189,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2000",
+      "value": 6.248,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2023",
+      "value": 8.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2022",
+      "value": 8.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2021",
+      "value": 8.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2020",
+      "value": 8.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2019",
+      "value": 7.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2018",
+      "value": 7.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2017",
+      "value": 7.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2016",
+      "value": 7.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2015",
+      "value": 7.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2014",
+      "value": 7.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2013",
+      "value": 7.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2012",
+      "value": 7.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2011",
+      "value": 7.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2010",
+      "value": 7.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2009",
+      "value": 7.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2008",
+      "value": 7.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2007",
+      "value": 7.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2006",
+      "value": 7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2005",
+      "value": 7.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2004",
+      "value": 7.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2003",
+      "value": 7.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2002",
+      "value": 7.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2001",
+      "value": 7.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2000",
+      "value": 7.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2023",
+      "value": 7.87,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2022",
+      "value": 7.37,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2021",
+      "value": 7.18,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2020",
+      "value": 7.07,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2019",
+      "value": 7.09,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2018",
+      "value": 7.08,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2017",
+      "value": 7.06,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2016",
+      "value": 7.04,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2015",
+      "value": 7.07,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2014",
+      "value": 7.12,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2013",
+      "value": 7.13,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2012",
+      "value": 7.13,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2011",
+      "value": 7.14,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2010",
+      "value": 7.11,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2009",
+      "value": 7.08,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2008",
+      "value": 7.06,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2007",
+      "value": 6.93,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2006",
+      "value": 6.81,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2005",
+      "value": 6.51,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2004",
+      "value": 6.42,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2003",
+      "value": 6.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2002",
+      "value": 6.41,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2001",
+      "value": 6.43,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2000",
+      "value": 6.45,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2023",
+      "value": 12.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2022",
+      "value": 12.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2021",
+      "value": 12.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2020",
+      "value": 11.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2019",
+      "value": 11.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2018",
+      "value": 11.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2017",
+      "value": 11.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2016",
+      "value": 11.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2015",
+      "value": 11.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2014",
+      "value": 10.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2013",
+      "value": 11.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2012",
+      "value": 10.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2011",
+      "value": 10.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2010",
+      "value": 10.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2009",
+      "value": 10.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2008",
+      "value": 10.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2007",
+      "value": 10.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2006",
+      "value": 10,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2005",
+      "value": 10.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2004",
+      "value": 9.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2003",
+      "value": 10.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2002",
+      "value": 10.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2001",
+      "value": 10.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2000",
+      "value": 10.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2023",
+      "value": 9.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2022",
+      "value": 9.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2021",
+      "value": 9.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2020",
+      "value": 9.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2019",
+      "value": 9.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2018",
+      "value": 9.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2017",
+      "value": 9.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2016",
+      "value": 8.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2015",
+      "value": 8.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2014",
+      "value": 8.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2013",
+      "value": 8.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2012",
+      "value": 8.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2011",
+      "value": 8.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2010",
+      "value": 8.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2009",
+      "value": 8.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2008",
+      "value": 8.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2007",
+      "value": 8.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2006",
+      "value": 8.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2005",
+      "value": 8.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2004",
+      "value": 8.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2003",
+      "value": 9.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2002",
+      "value": 8.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2001",
+      "value": 8.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2000",
+      "value": 8.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2023",
+      "value": 9.518,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2022",
+      "value": 9.512,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2021",
+      "value": 9.784,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2020",
+      "value": 10.268,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2019",
+      "value": 9.019,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2018",
+      "value": 9.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2017",
+      "value": 9.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2016",
+      "value": 9.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2015",
+      "value": 9.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2014",
+      "value": 8.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2013",
+      "value": 9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2012",
+      "value": 8.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2011",
+      "value": 8.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2010",
+      "value": 8.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2009",
+      "value": 9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2008",
+      "value": 9.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2007",
+      "value": 9.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2006",
+      "value": 9.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2005",
+      "value": 9.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2004",
+      "value": 9.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2003",
+      "value": 10.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2002",
+      "value": 10.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2001",
+      "value": 10.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2000",
+      "value": 10.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2023",
+      "value": 6.611,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2022",
+      "value": 6.576,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2021",
+      "value": 9.259,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2020",
+      "value": 7.214,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2019",
+      "value": 6.67,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2018",
+      "value": 6.67,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2017",
+      "value": 6.673,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2016",
+      "value": 6.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2015",
+      "value": 6.729,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2014",
+      "value": 6.77,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2013",
+      "value": 6.859,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2012",
+      "value": 6.945,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2011",
+      "value": 7.048,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2010",
+      "value": 7.164,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2009",
+      "value": 7.29,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2008",
+      "value": 7.41,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2007",
+      "value": 7.536,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2006",
+      "value": 7.67,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2005",
+      "value": 7.819,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2004",
+      "value": 7.982,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2003",
+      "value": 8.125,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2002",
+      "value": 8.294,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2001",
+      "value": 8.482,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2000",
+      "value": 8.628,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2023",
+      "value": 13,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2022",
+      "value": 12.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2021",
+      "value": 11.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2020",
+      "value": 11.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2019",
+      "value": 11.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2018",
+      "value": 11,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2017",
+      "value": 10.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2016",
+      "value": 10.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2015",
+      "value": 10.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2014",
+      "value": 10.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2013",
+      "value": 10.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2012",
+      "value": 10,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2011",
+      "value": 9.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2010",
+      "value": 9.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2009",
+      "value": 9.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2008",
+      "value": 9.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2007",
+      "value": 8.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2006",
+      "value": 8.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2005",
+      "value": 8.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2004",
+      "value": 8.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2003",
+      "value": 8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2002",
+      "value": 7.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2001",
+      "value": 7.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2000",
+      "value": 7.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2023",
+      "value": 6.161,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2022",
+      "value": 6.521,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2021",
+      "value": 9.015,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2020",
+      "value": 8.429,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2019",
+      "value": 6.083,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2018",
+      "value": 6.071,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2017",
+      "value": 5.997,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2016",
+      "value": 5.868,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2015",
+      "value": 5.768,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2014",
+      "value": 5.705,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2013",
+      "value": 5.677,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2012",
+      "value": 5.674,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2011",
+      "value": 5.698,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2010",
+      "value": 5.733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2009",
+      "value": 5.735,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2008",
+      "value": 5.682,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2007",
+      "value": 5.62,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2006",
+      "value": 5.575,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2005",
+      "value": 5.537,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2004",
+      "value": 5.517,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2003",
+      "value": 5.469,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2002",
+      "value": 5.45,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2001",
+      "value": 5.433,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2000",
+      "value": 5.481,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2023",
+      "value": 11.74,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2022",
+      "value": 11.953,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2021",
+      "value": 12.306,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2020",
+      "value": 12.586,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2019",
+      "value": 12.679,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2018",
+      "value": 12.952,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2017",
+      "value": 13.192,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2016",
+      "value": 13.408,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2015",
+      "value": 13.656,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2014",
+      "value": 13.736,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2013",
+      "value": 13.864,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2012",
+      "value": 14.019,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2011",
+      "value": 14.203,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2010",
+      "value": 14.36,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2009",
+      "value": 14.554,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2008",
+      "value": 14.801,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2007",
+      "value": 15.067,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2006",
+      "value": 15.43,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2005",
+      "value": 15.692,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2004",
+      "value": 15.986,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2003",
+      "value": 16.37,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2002",
+      "value": 16.799,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2001",
+      "value": 17.149,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2000",
+      "value": 17.439,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2023",
+      "value": 12.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2022",
+      "value": 12.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2021",
+      "value": 16.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2020",
+      "value": 14.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2019",
+      "value": 12.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2018",
+      "value": 12.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2017",
+      "value": 12.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2016",
+      "value": 12.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2015",
+      "value": 13,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2014",
+      "value": 13.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2013",
+      "value": 13,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2012",
+      "value": 13.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2011",
+      "value": 13.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2010",
+      "value": 14.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2009",
+      "value": 14.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2008",
+      "value": 14.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2007",
+      "value": 14.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2006",
+      "value": 15.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2005",
+      "value": 16.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2004",
+      "value": 15.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2003",
+      "value": 16.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2002",
+      "value": 16.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2001",
+      "value": 15.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2000",
+      "value": 15.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2023",
+      "value": 2.34,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2022",
+      "value": 2.57,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2021",
+      "value": 2.615,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2020",
+      "value": 2.46,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2019",
+      "value": 2.295,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2018",
+      "value": 2.228,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2017",
+      "value": 2.174,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2016",
+      "value": 2.178,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2015",
+      "value": 2.266,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2014",
+      "value": 2.392,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2013",
+      "value": 2.506,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2012",
+      "value": 2.593,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2011",
+      "value": 2.642,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2010",
+      "value": 2.668,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2009",
+      "value": 2.693,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2008",
+      "value": 2.701,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2007",
+      "value": 2.721,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2006",
+      "value": 2.741,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2005",
+      "value": 2.777,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2004",
+      "value": 2.827,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2003",
+      "value": 2.899,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2002",
+      "value": 2.992,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2001",
+      "value": 3.103,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2000",
+      "value": 3.234,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2023",
+      "value": 9.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2022",
+      "value": 9.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2021",
+      "value": 10.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2020",
+      "value": 10.27,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2019",
+      "value": 8.697,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2018",
+      "value": 8.678,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2017",
+      "value": 8.638,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2016",
+      "value": 8.493,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2015",
+      "value": 8.44,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2014",
+      "value": 8.237,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2013",
+      "value": 8.215,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2012",
+      "value": 8.102,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2011",
+      "value": 8.073,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2010",
+      "value": 7.995,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2009",
+      "value": 7.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2008",
+      "value": 8.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2007",
+      "value": 8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2006",
+      "value": 8.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2005",
+      "value": 8.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2004",
+      "value": 8.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2003",
+      "value": 8.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2002",
+      "value": 8.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2001",
+      "value": 8.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2000",
+      "value": 8.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2023",
+      "value": 9.239,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2022",
+      "value": 9.402,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2021",
+      "value": 11.933,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2020",
+      "value": 9.683,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2019",
+      "value": 8.75,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2018",
+      "value": 8.789,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2017",
+      "value": 8.83,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2016",
+      "value": 9.069,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2015",
+      "value": 9.217,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2014",
+      "value": 9.647,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2013",
+      "value": 9.962,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2012",
+      "value": 10.149,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2011",
+      "value": 10.721,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2010",
+      "value": 11.349,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2009",
+      "value": 12.067,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2008",
+      "value": 12.683,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2007",
+      "value": 13.122,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2006",
+      "value": 13.392,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2005",
+      "value": 13.333,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2004",
+      "value": 13.103,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2003",
+      "value": 12.831,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2002",
+      "value": 11.954,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2001",
+      "value": 11.074,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "SP.DYN.CDRT.IN",
+        "value": "Death rate, crude (per 1,000 people)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2000",
+      "value": 10.393,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    }
+  ]
+]

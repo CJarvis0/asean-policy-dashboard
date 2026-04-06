@@ -1,0 +1,5772 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 20000,
+    "total": 360,
+    "sourceid": "2",
+    "lastupdated": "2026-02-24"
+  },
+  [
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2023",
+      "value": 49.044339318428,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2022",
+      "value": 45.6946418805752,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2021",
+      "value": 40.2022359390595,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2020",
+      "value": 44.499564103879,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2019",
+      "value": 46.0016827052171,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2018",
+      "value": 43.5732253645218,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2017",
+      "value": 42.0354135251854,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2016",
+      "value": 40.813402217321,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2015",
+      "value": 41.4947506939901,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2014",
+      "value": 42.2993095385282,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2013",
+      "value": 41.100511881056,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2012",
+      "value": 43.0198495527558,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2011",
+      "value": 41.7219860149689,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2010",
+      "value": 40.3905070860606,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2009",
+      "value": 45.5936120867789,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2008",
+      "value": 42.7522207880308,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2007",
+      "value": 41.9297451276561,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2006",
+      "value": 41.4878923489153,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2005",
+      "value": 39.0978822564811,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2004",
+      "value": 36.9505159618289,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2003",
+      "value": 40.1348011794482,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2002",
+      "value": 41.3813128146921,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2001",
+      "value": 44.1337313971929,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "AU",
+        "value": "Australia"
+      },
+      "countryiso3code": "AUS",
+      "date": "2000",
+      "value": 40.8631257691954,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2023",
+      "value": 33.6662298301284,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2022",
+      "value": 38.8160659764321,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2021",
+      "value": 37.6563307592575,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2020",
+      "value": 32.3020785443492,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2019",
+      "value": 28.8902578697354,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2018",
+      "value": 28.876203376153,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2017",
+      "value": 24.3197343741684,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2016",
+      "value": 24.5336820770756,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2015",
+      "value": 26.9536259372369,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2014",
+      "value": 24.685405813292,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2013",
+      "value": 25.7859573281452,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2012",
+      "value": 25.1142736103322,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2011",
+      "value": 23.9344051765103,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2010",
+      "value": 22.7721781132208,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2009",
+      "value": 22.1059756060711,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2008",
+      "value": 27.2575694165953,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2007",
+      "value": 25.2926113757805,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2006",
+      "value": 26.0416998879446,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2005",
+      "value": 27.0867952052479,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2004",
+      "value": 29.6782524803495,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2003",
+      "value": 28.1403847215489,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2002",
+      "value": 27.6183574077173,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2001",
+      "value": 26.936285024943,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "BR",
+        "value": "Brazil"
+      },
+      "countryiso3code": "BRA",
+      "date": "2000",
+      "value": 22.6397613589755,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2023",
+      "value": 66.6323313370668,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2022",
+      "value": 67.3176215563989,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2021",
+      "value": 62.2468367159421,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2020",
+      "value": 61.1567709632763,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2019",
+      "value": 66.1714852804959,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2018",
+      "value": 66.5998858508762,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2017",
+      "value": 65.1010608504649,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2016",
+      "value": 65.3636845215556,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2015",
+      "value": 66.1649020669781,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2014",
+      "value": 64.3786621564923,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2013",
+      "value": 62.2310749013405,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2012",
+      "value": 62.5955489395005,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2011",
+      "value": 62.4987387708328,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2010",
+      "value": 60.2081215044483,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2009",
+      "value": 58.4743918224897,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2008",
+      "value": 67.0236083618983,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2007",
+      "value": 66.2834197482347,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2006",
+      "value": 68.0521644769988,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2005",
+      "value": 69.7591330167357,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2004",
+      "value": 70.1924199909562,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2003",
+      "value": 69.8400946170607,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2002",
+      "value": 75.7070320779233,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2001",
+      "value": 78.3442183943698,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CA",
+        "value": "Canada"
+      },
+      "countryiso3code": "CAN",
+      "date": "2000",
+      "value": 82.7653578503214,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2023",
+      "value": 36.1051923691138,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2022",
+      "value": 37.440719876366,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2021",
+      "value": 36.5206911762676,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2020",
+      "value": 34.0389507864581,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2019",
+      "value": 35.1994202738836,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2018",
+      "value": 36.8943843914718,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2017",
+      "value": 36.95085261586,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2016",
+      "value": 36.177170692978,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2015",
+      "value": 38.6971848362625,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2014",
+      "value": 44.0684564812532,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2013",
+      "value": 45.9160413795571,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2012",
+      "value": 47.4802130784317,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2011",
+      "value": 49.9458272253643,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2010",
+      "value": 49.8540722338977,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2009",
+      "value": 44.4197644331119,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2008",
+      "value": 56.7111330003209,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2007",
+      "value": 61.2664640006176,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2006",
+      "value": 63.5695798621627,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2005",
+      "value": 61.3600749408237,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2004",
+      "value": 58.6403340408439,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2003",
+      "value": 51.0774801301803,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2002",
+      "value": 42.1944423387413,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2001",
+      "value": 38.0826469518334,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "CN",
+        "value": "China"
+      },
+      "countryiso3code": "CHN",
+      "date": "2000",
+      "value": 39.0109424774998,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2023",
+      "value": 81.9625483787634,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2022",
+      "value": 88.7857542130501,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2021",
+      "value": 79.9195348609851,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2020",
+      "value": 72.9335327120137,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2019",
+      "value": 79.0732427175683,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2018",
+      "value": 79.1252260463654,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2017",
+      "value": 77.4548394742448,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2016",
+      "value": 76.0059902166055,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2015",
+      "value": 77.7565815686922,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2014",
+      "value": 76.8483516336234,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2013",
+      "value": 77.5860288576931,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2012",
+      "value": 79.3316495670315,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2011",
+      "value": 78.433002901442,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2010",
+      "value": 73.8852351200263,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2009",
+      "value": 66.1391275757126,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2008",
+      "value": 76.1131665945746,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2007",
+      "value": 74.8838416816798,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2006",
+      "value": 72.7591934646234,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2005",
+      "value": 66.9531024934321,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2004",
+      "value": 62.9064909465164,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2003",
+      "value": 58.9145442942507,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2002",
+      "value": 58.3325687248129,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2001",
+      "value": 59.5592863682118,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "DE",
+        "value": "Germany"
+      },
+      "countryiso3code": "DEU",
+      "date": "2000",
+      "value": 59.1955992975405,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2023",
+      "value": 70.6261450610225,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2022",
+      "value": 75.9630077981996,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2021",
+      "value": 63.788482630872,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2020",
+      "value": 58.8388907240647,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2019",
+      "value": 66.4289771741449,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2018",
+      "value": 66.8022607812266,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2017",
+      "value": 65.3958481559711,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2016",
+      "value": 63.3427564383351,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2015",
+      "value": 63.5046871956484,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2014",
+      "value": 62.1992669379507,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2013",
+      "value": 61.8192338733962,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2012",
+      "value": 61.6589570771102,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2011",
+      "value": 60.6056354816406,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2010",
+      "value": 56.587555247796,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2009",
+      "value": 52.1991123027613,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2008",
+      "value": 59.1797928411748,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2007",
+      "value": 58.1525611309659,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2006",
+      "value": 57.8692775292673,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2005",
+      "value": 55.8228361241299,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2004",
+      "value": 53.7497648292028,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2003",
+      "value": 52.5988822870657,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2002",
+      "value": 55.1325248503102,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2001",
+      "value": 56.8932328560722,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "FR",
+        "value": "France"
+      },
+      "countryiso3code": "FRA",
+      "date": "2000",
+      "value": 57.7860470318197,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2023",
+      "value": 64.9923841747803,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2022",
+      "value": 69.1989264413981,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2021",
+      "value": 58.53838629291,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2020",
+      "value": 59.1598893030611,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2019",
+      "value": 65.0035664177054,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2018",
+      "value": 64.9097721959201,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2017",
+      "value": 63.1899245764158,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2016",
+      "value": 59.8395315138259,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2015",
+      "value": 57.125044605439,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2014",
+      "value": 58.8210228333296,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2013",
+      "value": 61.7195395154583,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2012",
+      "value": 61.9688704472535,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2011",
+      "value": 63.3240615708901,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2010",
+      "value": 59.0511802227821,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2009",
+      "value": 54.6537301085991,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2008",
+      "value": 56.4365501052604,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2007",
+      "value": 52.7493524964733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2006",
+      "value": 56.7047791729812,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2005",
+      "value": 52.5442740383211,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2004",
+      "value": 50.2885521756133,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2003",
+      "value": 50.0681187039704,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2002",
+      "value": 51.2361820991323,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2001",
+      "value": 52.6342367336438,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "GB",
+        "value": "United Kingdom"
+      },
+      "countryiso3code": "GBR",
+      "date": "2000",
+      "value": 52.3380212335903,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2023",
+      "value": 44.9928422877561,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2022",
+      "value": 50.0752701498882,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2021",
+      "value": 45.4230887840446,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2020",
+      "value": 37.7581053292768,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2019",
+      "value": 39.9054035306442,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2018",
+      "value": 43.6169693323889,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2017",
+      "value": 40.7424969545225,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2016",
+      "value": 40.082485713276,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2015",
+      "value": 41.9229138658647,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2014",
+      "value": 48.9221857470669,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2013",
+      "value": 53.8441319466777,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2012",
+      "value": 55.7937217287511,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2011",
+      "value": 55.6238800135298,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2010",
+      "value": 49.2552064974161,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2009",
+      "value": 46.2728696428837,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2008",
+      "value": 53.3682204392226,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2007",
+      "value": 45.686268679348,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2006",
+      "value": 45.7244804992652,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2005",
+      "value": 42.0016696148691,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2004",
+      "value": 37.503814059447,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2003",
+      "value": 30.592436132908,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2002",
+      "value": 29.5086629350614,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2001",
+      "value": 25.9932547534365,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "IN",
+        "value": "India"
+      },
+      "countryiso3code": "IND",
+      "date": "2000",
+      "value": 26.9009229104474,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2023",
+      "value": 45.1508795641248,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2022",
+      "value": 46.8129868368938,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2021",
+      "value": 36.7384462280698,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2020",
+      "value": 31.335208636773,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2019",
+      "value": 35.2164181084145,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2018",
+      "value": 36.609931802107,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2017",
+      "value": 34.4232135721686,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2016",
+      "value": 31.3102468455884,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2015",
+      "value": 35.4274083544798,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2014",
+      "value": 37.4314345686579,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2013",
+      "value": 33.9787686509511,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2012",
+      "value": 30.4709109171752,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2011",
+      "value": 30.1949607286296,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2010",
+      "value": 28.4984726938389,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2009",
+      "value": 24.3901665338555,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2008",
+      "value": 34.1294765412245,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2007",
+      "value": 32.816578051879,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2006",
+      "value": 30.0163760986692,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2005",
+      "value": 26.2299545778565,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2004",
+      "value": 23.6643534228975,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2003",
+      "value": 21.3261252678119,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2002",
+      "value": 20.4471220661583,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2001",
+      "value": 19.5596044720071,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "JP",
+        "value": "Japan"
+      },
+      "countryiso3code": "JPN",
+      "date": "2000",
+      "value": 19.5623715839054,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2023",
+      "value": 73.5788616365245,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2022",
+      "value": 88.7984855867186,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2021",
+      "value": 83.0692976357895,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2020",
+      "value": 76.8545557056016,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2019",
+      "value": 77.4619722571128,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2018",
+      "value": 80.2126616568975,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2017",
+      "value": 76.9521260407254,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2016",
+      "value": 75.6903034088551,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2015",
+      "value": 70.412974676264,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2014",
+      "value": 64.0984090351215,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2013",
+      "value": 62.6916747735807,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2012",
+      "value": 64.2579318900113,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2011",
+      "value": 62.1623872764498,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2010",
+      "value": 59.2733845293851,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2009",
+      "value": 54.5917421313503,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2008",
+      "value": 56.3652818862573,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2007",
+      "value": 55.2585243944498,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2006",
+      "value": 54.4821160886169,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2005",
+      "value": 52.5626446517886,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2004",
+      "value": 52.0406200335632,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2003",
+      "value": 48.700416880838,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2002",
+      "value": 45.209829259652,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2001",
+      "value": 44.7401090123173,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "MX",
+        "value": "Mexico"
+      },
+      "countryiso3code": "MEX",
+      "date": "2000",
+      "value": 49.9104091872497,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2022",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2021",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2020",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2019",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2017",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2016",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2015",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2014",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2013",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2012",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2011",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2010",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2009",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2008",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2007",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2006",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2005",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2004",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2003",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2002",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2001",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "NG",
+        "value": "Nigeria"
+      },
+      "countryiso3code": "NGA",
+      "date": "2000",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2023",
+      "value": 40.8343264105273,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2022",
+      "value": 42.7827864294811,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2021",
+      "value": 50.5861954621752,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2020",
+      "value": 45.9669082029127,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2019",
+      "value": 49.2287536619033,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2018",
+      "value": 51.5809003703964,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2017",
+      "value": 46.8765243371311,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2016",
+      "value": 46.5181198396096,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2015",
+      "value": 49.3593493116887,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2014",
+      "value": 47.8013412628116,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2013",
+      "value": 46.287149400499,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2012",
+      "value": 47.1513903857957,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2011",
+      "value": 48.0353994077919,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2010",
+      "value": 50.3555054872589,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2009",
+      "value": 48.4350610278181,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2008",
+      "value": 53.3824660408908,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2007",
+      "value": 51.7061227454606,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2006",
+      "value": 54.733401867266,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2005",
+      "value": 56.7132484905422,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2004",
+      "value": 56.5818523984055,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2003",
+      "value": 59.1282690076014,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2002",
+      "value": 59.6454457319607,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2001",
+      "value": 61.1108586644206,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "RU",
+        "value": "Russian Federation"
+      },
+      "countryiso3code": "RUS",
+      "date": "2000",
+      "value": 68.0939070373555,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2023",
+      "value": 54.1690118283683,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2022",
+      "value": 56.8241647749332,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2021",
+      "value": 50.8839263398787,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2020",
+      "value": 47.533159225048,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2019",
+      "value": 56.7938204886513,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2018",
+      "value": 59.1029104697141,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2017",
+      "value": 59.5319791578229,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2016",
+      "value": 57.9216635110364,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2015",
+      "value": 67.1052692300592,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2014",
+      "value": 78.000111117736,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2013",
+      "value": 80.2515014286783,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2012",
+      "value": 81.74067854616,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2011",
+      "value": 84.3594342438995,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2010",
+      "value": 82.5496850227537,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2009",
+      "value": 84.8583415624843,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2008",
+      "value": 96.1026308742185,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2007",
+      "value": 94.8633170967657,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2006",
+      "value": 89.9446046768984,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2005",
+      "value": 81.9540759410158,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2004",
+      "value": 75.0828366569341,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2003",
+      "value": 69.831170708742,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2002",
+      "value": 64.5927974099254,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2001",
+      "value": 63.5605836794513,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "SA",
+        "value": "Saudi Arabia"
+      },
+      "countryiso3code": "SAU",
+      "date": "2000",
+      "value": 68.1664488005167,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2023",
+      "value": 25.2903297883366,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2022",
+      "value": 27.3139397355363,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2021",
+      "value": 25.6095576621932,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2020",
+      "value": 23.4015629969394,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2019",
+      "value": 26.4537594940475,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2018",
+      "value": 27.6103792720958,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2017",
+      "value": 27.3130208877206,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2016",
+      "value": 26.6079620604584,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2015",
+      "value": 27.8235649187872,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2014",
+      "value": 30.0044781614855,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2013",
+      "value": 30.0079539684645,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2012",
+      "value": 30.6818353657295,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2011",
+      "value": 30.8424862411943,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2010",
+      "value": 28.2198952346731,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2009",
+      "value": 24.7595311689876,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2008",
+      "value": 29.8677957945319,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2007",
+      "value": 28.0120176822667,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2006",
+      "value": 26.9752780973197,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2005",
+      "value": 25.6385530316517,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2004",
+      "value": 24.4480622643257,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2003",
+      "value": 22.6273130062789,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2002",
+      "value": 22.2863741094897,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2001",
+      "value": 22.967181335596,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "US",
+        "value": "United States"
+      },
+      "countryiso3code": "USA",
+      "date": "2000",
+      "value": 25.1029953595813,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2023",
+      "value": 65.6798759740707,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2022",
+      "value": 64.94713440234,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2021",
+      "value": 56.1647136277546,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2020",
+      "value": 50.7596590804177,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2019",
+      "value": 53.8979964081406,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2018",
+      "value": 54.4855451276341,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2017",
+      "value": 53.5359318293741,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2016",
+      "value": 55.8612575048782,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2015",
+      "value": 56.7266761447156,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2014",
+      "value": 59.4995740550593,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2013",
+      "value": 58.875027630051,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2012",
+      "value": 55.5826171933345,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2011",
+      "value": 54.6363504358971,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2010",
+      "value": 50.4060871625999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2009",
+      "value": 49.5875353278801,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2008",
+      "value": 65.9745237996233,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2007",
+      "value": 57.125139137747,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2006",
+      "value": 53.7681412741145,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2005",
+      "value": 47.4277813970329,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2004",
+      "value": 45.6435752240041,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2003",
+      "value": 45.723862568979,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2002",
+      "value": 53.4655016294369,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2001",
+      "value": 49.170945185829,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NE.TRD.GNFS.ZS",
+        "value": "Trade (% of GDP)"
+      },
+      "country": {
+        "id": "ZA",
+        "value": "South Africa"
+      },
+      "countryiso3code": "ZAF",
+      "date": "2000",
+      "value": 46.2207217354077,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    }
+  ]
+]
