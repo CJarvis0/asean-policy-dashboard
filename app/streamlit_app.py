@@ -32,7 +32,6 @@ DEFAULT_PANEL_PATH = PROJECT_ROOT / "data" / "processed" / "panel" / "Final_Pane
 MODELING_CLEANED_PATH = PROJECT_ROOT / "data" / "processed" / "modeling" / "panel_cleaned.csv"
 CORRELATION_PATH = PROJECT_ROOT / "data" / "processed" / "modeling" / "correlation_matrix.csv"
 RESULTS_DIR = PROJECT_ROOT / "outputs" / "results"
-PLOTS_DIR = PROJECT_ROOT / "outputs" / "plots"
 
 TARGET_LABELS: Dict[str, str] = {
     "gdp_per_capita": "GDP per Capita",
@@ -1345,25 +1344,6 @@ def _render_predictive_analytics() -> None:
             .properties(height=max(250, len(country_avg_df) * 24))
         )
         st.altair_chart(country_chart, use_container_width=True)
-
-    # Legacy static plots
-    with st.expander("Static PNG Plots (Legacy)", expanded=False):
-        plot_specs = [
-            ("actual_vs_pred", "Actual vs Predicted"),
-            ("model_comparison", "Model Comparison"),
-            ("feature_importance", "Feature Importance"),
-            ("country", "Country Comparison"),
-            ("vs_mean", "Model vs Mean Baseline"),
-        ]
-        for i in range(0, len(plot_specs), 2):
-            cols = st.columns(2)
-            for j, (suffix, title) in enumerate(plot_specs[i: i + 2]):
-                img_path = PLOTS_DIR / f"{target}_{suffix}.png"
-                with cols[j]:
-                    if img_path.exists():
-                        st.image(str(img_path), caption=title, use_container_width=True)
-                    else:
-                        st.info(f"Missing: {img_path.name}")
 
     # Best model per target summary
     summary_rows = []
