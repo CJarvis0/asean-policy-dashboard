@@ -606,6 +606,97 @@ def _glossary_expander(terms: List[str]) -> None:
             st.markdown(f"**{term}:** {defn}")
 
 
+def _render_executive_summary(df: pd.DataFrame) -> None:
+    st.header("Executive Summary")
+    _section_intro(
+        "High-level view of descriptive trend direction and predictive model performance. "
+        "Use this tab for stakeholder updates and sprint-level decisions."
+    )
+
+    model_tables = load_model_result_tables(RESULTS_DIR)
+    modeled_targets = len(model_tables)
+
+    c1, c2, c3, c4 = st.columns(4)
+    countries = int(df["country"].nunique())
+    rows = int(len(df))
+    min_year = int(df["year"].min()) if "year" in df.columns and not df.empty else None
+    max_year = int(df["year"].max()) if "year" in df.columns and not df.empty else None
+    c1.metric("Countries", countries)
+    if min_year is not None and max_year is not None:
+        c2.metric("Year Range", f"{min_year}\u2013{max_year}")
+    else:
+        c2.metric("Year Range", "N/A")
+    c3.metric("Observations", f"{rows:,}")
+    c4.metric("Targets Modeled", modeled_targets)
+
+    _insight_callout(
+        "Executive Readout",
+        "This summary is optimized for presentation: key trend shifts, best model performance, and current project scope.",
+        tone="neutral",
+    )
+
+    st.markdown("### Descriptive Trend Highlights")
+    trend_rows: List[Dict[str, object]] = []
+    for metric in ["gini_index", "gdp_per_capita", "life_expectancy", "infant_mortality"]:
+        if metric not in df.columns:
+            continue
+        by_year = df.groupby("year", as_index=False)[metric].mean().dropna(subset=[metric]).sort_values("year")
+        if len(by_year) < 2:
+            continue
+        start_val = float(by_year.iloc[0][metric])
+        end_val = float(by_year.iloc[-1][metric])
+        trend_rows.append(
+            {
+                "Metric": _pretty(metric),
+                "Start": round(start_val, 3),
+                "Latest": round(end_val, 3),
+                "Delta": round(end_val - start_val, 3),
+            }
+        )
+    if trend_rows:
+        st.dataframe(pd.DataFrame(trend_rows), use_container_width=True, hide_index=True)
+    else:
+        st.info("Insufficient data to compute descriptive trend highlights.")
+
+    st.markdown("### Predictive Model Snapshot")
+    summary_rows: List[Dict[str, object]] = []
+    for target, table in model_tables.items():
+        ranked = table.sort_values("rmse")
+        if ranked.empty:
+            continue
+        best = ranked.iloc[0]
+        summary_rows.append(
+            {
+                "Target": _pretty(target),
+                "Best Model": str(best["model"]).replace("_", " ").title(),
+                "RMSE": round(float(best["rmse"]), 4),
+                "MAE": round(float(best["mae"]), 4),
+                "R\u00b2": round(float(best["r2"]), 4),
+            }
+        )
+
+    if summary_rows:
+        summary_df = pd.DataFrame(summary_rows).sort_values("Target")
+        st.dataframe(summary_df, use_container_width=True, hide_index=True)
+
+        strong = summary_df.sort_values("R\u00b2", ascending=False).iloc[0]
+        weak = summary_df.sort_values("R\u00b2", ascending=True).iloc[0]
+        tone = "positive" if float(weak["R\u00b2"]) >= 0.4 else "risk"
+        _insight_callout(
+            "Performance Spread",
+            f"Strongest target fit: {strong['Target']} (R\u00b2 {strong['R\u00b2']:.3f}). "
+            f"Weakest target fit: {weak['Target']} (R\u00b2 {weak['R\u00b2']:.3f}).",
+            tone=tone,
+        )
+    else:
+        st.info("No predictive model result tables found yet.")
+
+    st.markdown("### Current Scope Note")
+    st.markdown(
+        "- Recommendation Engine and What-If Simulation remain intentionally pending and are not part of current outputs."
+    )
+
+
 # ── Sidebar ─────────────────────────────────────────────────────────────────
 
 def _render_sidebar(df: pd.DataFrame) -> None:
@@ -629,6 +720,7 @@ def _render_sidebar(df: pd.DataFrame) -> None:
         # Quick guide
         st.markdown("### Quick Guide")
         st.markdown(
+            "**Executive Summary** \u2014 High-level trends and model performance snapshot.\n\n"
             "**Story Mode** \u2014 Narrative walkthroughs tied to real policy questions.\n\n"
             "**Data Explorer** \u2014 Filter, browse, and download the panel dataset.\n\n"
             "**Descriptive** \u2014 Cross-country comparisons and trend analysis.\n\n"
@@ -1101,6 +1193,77 @@ def _render_predictive_analytics() -> None:
                 .properties(height=280)
             )
             st.altair_chart(residual_chart, use_container_width=True)
+
+            # Residual-based uncertainty view
+            st.markdown("#### Uncertainty View (Residual-Based)")
+            st.caption(
+                "Approximate 80% uncertainty interval derived from test residual quantiles "
+                "(q10 to q90). This is diagnostic uncertainty, not a formal probabilistic forecast."
+            )
+            residual_non_na = view_df["residual"].dropna()
+            if len(residual_non_na) >= 5:
+                q10 = float(residual_non_na.quantile(0.10))
+                q90 = float(residual_non_na.quantile(0.90))
+                sigma = float(residual_non_na.std(ddof=0))
+                view_df["lower80"] = view_df["predicted"] + q10
+                view_df["upper80"] = view_df["predicted"] + q90
+                coverage80 = float(
+                    ((view_df["actual"] >= view_df["lower80"]) & (view_df["actual"] <= view_df["upper80"]))
+                    .mean()
+                    * 100.0
+                )
+
+                u1, u2, u3 = st.columns(3)
+                u1.metric("Residual \u03c3", f"{sigma:,.3f}")
+                u2.metric("80% Interval Width", f"{(q90 - q10):,.3f}")
+                u3.metric("Observed 80% Coverage", f"{coverage80:.1f}%")
+
+                yearly_band = (
+                    view_df.groupby("year", as_index=False)
+                    .agg(
+                        actual=("actual", "mean"),
+                        predicted=("predicted", "mean"),
+                        lower80=("lower80", "mean"),
+                        upper80=("upper80", "mean"),
+                    )
+                    .sort_values("year")
+                )
+
+                band = (
+                    alt.Chart(yearly_band)
+                    .mark_area(opacity=0.2, color=COLORS["secondary"])
+                    .encode(
+                        x=alt.X("year:O", title="Year"),
+                        y=alt.Y("lower80:Q", title=_pretty(target)),
+                        y2="upper80:Q",
+                        tooltip=[
+                            "year:O",
+                            alt.Tooltip("lower80:Q", format=",.3f", title="Lower 80%"),
+                            alt.Tooltip("upper80:Q", format=",.3f", title="Upper 80%"),
+                        ],
+                    )
+                )
+                pred_line = (
+                    alt.Chart(yearly_band)
+                    .mark_line(color=COLORS["secondary"])
+                    .encode(
+                        x=alt.X("year:O"),
+                        y=alt.Y("predicted:Q"),
+                        tooltip=[alt.Tooltip("predicted:Q", format=",.3f", title="Predicted Mean")],
+                    )
+                )
+                act_line = (
+                    alt.Chart(yearly_band)
+                    .mark_line(color=COLORS["danger"], strokeDash=[5, 3])
+                    .encode(
+                        x=alt.X("year:O"),
+                        y=alt.Y("actual:Q"),
+                        tooltip=[alt.Tooltip("actual:Q", format=",.3f", title="Actual Mean")],
+                    )
+                )
+                st.altair_chart((band + pred_line + act_line).interactive().properties(height=320), use_container_width=True)
+            else:
+                st.info("Insufficient residual data to compute uncertainty diagnostics for the current filter.")
 
             # Per-country error diagnostics
             st.markdown("#### Per-Country Error Diagnostics")
@@ -1741,6 +1904,7 @@ def main() -> None:
     _render_header()
 
     tabs = st.tabs([
+        "Executive Summary",
         "Story Mode",
         "Data Explorer",
         "Descriptive Analytics",
@@ -1751,18 +1915,20 @@ def main() -> None:
     ])
 
     with tabs[0]:
-        _render_story_mode(df)
+        _render_executive_summary(df)
     with tabs[1]:
-        _render_data_explorer(df)
+        _render_story_mode(df)
     with tabs[2]:
-        _render_descriptive_analytics(df)
+        _render_data_explorer(df)
     with tabs[3]:
-        _render_predictive_analytics()
+        _render_descriptive_analytics(df)
     with tabs[4]:
-        _render_econometric_results()
+        _render_predictive_analytics()
     with tabs[5]:
-        _render_simulation(df)
+        _render_econometric_results()
     with tabs[6]:
+        _render_simulation(df)
+    with tabs[7]:
         _render_policy_recommendations()
 
     _render_footer()
