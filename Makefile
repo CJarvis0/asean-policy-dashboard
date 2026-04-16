@@ -11,7 +11,7 @@ VENV_PYTHON := $(VENV_DIR)/bin/python
 VENV_PIP := $(VENV_DIR)/bin/pip
 MPLCONFIGDIR ?= /tmp/mpl
 
-.PHONY: help venv install setup activate data models models-econ models-predictive all all-from-raw dashboard clean
+.PHONY: help windows-help venv install setup activate data models models-econ models-predictive all all-from-raw dashboard clean
 
 help:
 	@echo "ASEAN Policy Dashboard Make Targets"
@@ -30,12 +30,20 @@ help:
 	@echo ""
 	@echo "App"
 	@echo "  make dashboard          Launch Streamlit app"
+	@echo "  make windows-help       Show PowerShell commands for Windows users"
 	@echo ""
 	@echo "Maintenance"
 	@echo "  make clean              Remove Python cache files"
 	@echo ""
 	@echo "Options"
 	@echo "  Override defaults, e.g.: make setup PYTHON=python3.12"
+
+windows-help:
+	@echo "Windows PowerShell Quick Commands"
+	@echo ""
+	@echo "  .\\scripts\\dev.ps1 setup"
+	@echo "  .\\scripts\\dev.ps1 all"
+	@echo "  .\\scripts\\dev.ps1 dashboard"
 
 venv:
 	@if [ ! -d "$(VENV_DIR)" ]; then \

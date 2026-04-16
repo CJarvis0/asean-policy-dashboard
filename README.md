@@ -33,6 +33,7 @@ End-to-end analytics and decision-support system for ASEAN-focused socioeconomic
 - Works on **macOS**, **Linux**, and **Windows**.
 - `make` workflow is easiest on macOS/Linux.
 - On Windows, you can use:
+  - PowerShell helper script (`.\scripts\dev.ps1`), or
   - PowerShell (manual commands), or
   - WSL / Git Bash with `make`.
 
@@ -60,19 +61,26 @@ source venv/bin/activate
 ```powershell
 git clone <your-repo-url>
 cd asean-policy-dashboard
-py -3.12 -m venv venv
-.\venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python scripts/run_pipeline.py --stage all
-python -m streamlit run app/streamlit_app.py
+.\scripts\dev.ps1 setup
+.\scripts\dev.ps1 all
+.\scripts\dev.ps1 dashboard
 ```
 
-If PowerShell blocks activation:
+If PowerShell blocks script execution:
 
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\venv\Scripts\Activate.ps1
+.\scripts\dev.ps1 setup
+```
+
+The helper script supports these targets:
+
+```powershell
+.\scripts\dev.ps1 help
+.\scripts\dev.ps1 data
+.\scripts\dev.ps1 models
+.\scripts\dev.ps1 all-from-raw
+.\scripts\dev.ps1 clean
 ```
 
 ### Optional: `make` on Windows (WSL / Git Bash)
@@ -121,12 +129,15 @@ source venv/bin/activate
 
 1. Clone and enter repo.
 2. Create/setup env (`make setup` or manual setup).
-3. Activate env:
+3. Activate env (manual or `make` workflows):
    - macOS/Linux: `source venv/bin/activate`
    - Windows PowerShell: `.\venv\Scripts\Activate.ps1`
-4. Build artifacts: `make all`.
+4. Build artifacts:
+   - macOS/Linux `make` workflow: `make all`
+   - Windows PowerShell helper: `.\scripts\dev.ps1 all`
 5. Launch app:
    - make workflow: `make dashboard`
+   - PowerShell helper: `.\scripts\dev.ps1 dashboard`
    - manual workflow: `python -m streamlit run app/streamlit_app.py`
 
 ## Pipeline Commands
