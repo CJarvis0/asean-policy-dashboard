@@ -8,7 +8,7 @@ End-to-end analytics and decision-support system for ASEAN-focused socioeconomic
 - Data pipeline for panel assembly and stage generation (DTM/ETM)
 - Econometric outputs (OLS and Panel OLS)
 - Multi-target predictive modeling outputs with plots and metrics
-- Prescriptive module scaffolding (Recommendation + What-If placeholders)
+- Prescriptive recommendation and what-if simulation engines with exported artifacts
 - Streamlit dashboard entry point
 
 ## Project Structure
@@ -185,7 +185,7 @@ The dashboard includes a `Story Mode` tab that aligns analysis to six user stori
 
 - 2 descriptive stories (country-level inequality trends and ASEAN-wide inequality monitoring)
 - 2 predictive stories (Gini prediction with trade context, GDP prediction performance)
-- 2 prescriptive story placeholders (ranked policy priorities, what-if simulation for reforms) pending implementation
+- 2 prescriptive stories (ranked policy priorities and what-if reform simulation)
 
 ## Data/Modeling Notes
 
@@ -207,12 +207,12 @@ The dashboard includes a `Story Mode` tab that aligns analysis to six user stori
 
 ## Prescriptive Modules Status (Story 5 + Story 6)
 
-The Recommendation Engine and What-If Simulation are not complete yet.
+Story 5 and Story 6 are implemented and integrated into the model pipeline and dashboard.
 
-- `src/recommendation.py` is currently a placeholder and does not produce ranked recommendations.
-- `src/simulation.py` is currently a placeholder and does not run scenario inference.
-- `src/pipeline.py` intentionally sets `recommendations_path` to `None` until prescriptive features are implemented.
-- Dashboard tabs and Story Mode sections for Story 5/Story 6 are scaffolded and marked as pending implementation.
+- `src/recommendation.py` generates ranked country recommendations and supporting evidence outputs.
+- `src/simulation.py` runs what-if scenario projections and scenario summaries.
+- `src/pipeline.py` now executes prescriptive modules during model-stage runs.
+- Dashboard tabs and Story Mode sections for Story 5/Story 6 render generated recommendation and simulation artifacts.
 
 ## Small Roadmap: Recommendation Engine + What-If Analysis
 

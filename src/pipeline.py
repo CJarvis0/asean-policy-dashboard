@@ -40,6 +40,8 @@ def run_model_pipeline(
     run_predictive: bool = True,
 ) -> Dict[str, object]:
     from src.models import run_fixed_effects_model, run_ols_regression, run_predictive_models
+    from src.recommendation import run_recommendation_engine
+    from src.simulation import run_simulation_engine
 
     outputs: Dict[str, object] = {}
 
@@ -54,8 +56,11 @@ def run_model_pipeline(
     if run_predictive:
         outputs["predictive_outputs"] = run_predictive_models(panel_path=FINAL_PANEL_PATH)
 
-    # TODO: Re-enable recommendation artifact generation once engine is implemented.
-    outputs["recommendations_path"] = None
+    recommendation_outputs = run_recommendation_engine(panel_path=FINAL_PANEL_PATH)
+    simulation_outputs = run_simulation_engine(panel_path=FINAL_PANEL_PATH)
+    outputs["recommendation_outputs"] = recommendation_outputs
+    outputs["simulation_outputs"] = simulation_outputs
+    outputs["recommendations_path"] = recommendation_outputs.get("ranked_recommendations")
     return outputs
 
 

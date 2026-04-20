@@ -32,6 +32,12 @@ DEFAULT_PANEL_PATH = PROJECT_ROOT / "data" / "processed" / "panel" / "Final_Pane
 MODELING_CLEANED_PATH = PROJECT_ROOT / "data" / "processed" / "modeling" / "panel_cleaned.csv"
 CORRELATION_PATH = PROJECT_ROOT / "data" / "processed" / "modeling" / "correlation_matrix.csv"
 RESULTS_DIR = PROJECT_ROOT / "outputs" / "results"
+PLOTS_DIR = PROJECT_ROOT / "outputs" / "plots"
+
+RECOMMENDATION_RANKED_PATH = RESULTS_DIR / "policy_recommendations_ranked.csv"
+RECOMMENDATION_EVIDENCE_PATH = RESULTS_DIR / "policy_recommendation_evidence.csv"
+SCENARIO_RESULTS_PATH = RESULTS_DIR / "scenario_results.csv"
+SCENARIO_SUMMARY_PATH = RESULTS_DIR / "scenario_summary.csv"
 
 TARGET_LABELS: Dict[str, str] = {
     "gdp_per_capita": "GDP per Capita",
@@ -172,15 +178,39 @@ section[data-testid="stSidebar"] .stMarkdown a {{
     border-radius: 8px;
     border-left: 4px solid {COLORS["secondary"]};
     box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    min-height: 6.6rem;
+    align-items: flex-start !important;
+}}
+[data-testid="stMetric"] > div {{
+    width: 100%;
 }}
 [data-testid="stMetric"] label {{
     font-size: 0.75rem !important;
     text-transform: uppercase;
     letter-spacing: 0.04em;
     opacity: 0.7;
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    line-height: 1.25;
 }}
 [data-testid="stMetric"] [data-testid="stMetricValue"] {{
     font-weight: 700;
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    line-height: 1.25;
+}}
+[data-testid="stMetric"] [data-testid="stMetricLabel"] *,
+[data-testid="stMetric"] [data-testid="stMetricValue"] * {{
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    line-height: 1.25;
 }}
 
 /* == Tabs == */
@@ -691,9 +721,19 @@ def _render_executive_summary(df: pd.DataFrame) -> None:
         st.info("No predictive model result tables found yet.")
 
     st.markdown("### Current Scope Note")
-    st.markdown(
-        "- Recommendation Engine and What-If Simulation remain intentionally pending and are not part of current outputs."
-    )
+    rec_df = load_optional_csv(RECOMMENDATION_RANKED_PATH)
+    sim_df = load_optional_csv(SCENARIO_RESULTS_PATH)
+    if rec_df is not None and not rec_df.empty and sim_df is not None and not sim_df.empty:
+        latest_year = int(rec_df["year"].max()) if "year" in rec_df.columns else int(df["year"].max())
+        st.markdown(
+            f"- Recommendation Engine and What-If Simulation are active for the latest-year snapshot ({latest_year}).\n"
+            "- Prescriptive outputs are reported as normalized composite score indices and stage-template policy bundles."
+        )
+    else:
+        st.markdown(
+            "- Prescriptive artifacts are not available yet. Run `python scripts/run_pipeline.py --stage models` "
+            "to generate recommendation and simulation outputs."
+        )
 
 
 # ── Sidebar ─────────────────────────────────────────────────────────────────
@@ -722,11 +762,11 @@ def _render_sidebar(df: pd.DataFrame) -> None:
             "**Executive Summary** \u2014 High-level trends and model performance snapshot.\n\n"
             "**Story Mode** \u2014 Narrative walkthroughs tied to real policy questions.\n\n"
             "**Data Explorer** \u2014 Filter, browse, and download the panel dataset.\n\n"
-            "**Descriptive** \u2014 Cross-country comparisons and trend analysis.\n\n"
-            "**Predictive** \u2014 ML model performance and feature importance.\n\n"
-            "**Econometric** \u2014 OLS and Panel OLS regression results.\n\n"
-            "**Simulation** \u2014 Placeholder tab (implementation in progress).\n\n"
-            "**Recommendations** \u2014 Placeholder tab (implementation in progress)."
+            "**Descriptive Analytics** \u2014 Cross-country comparisons and trend analysis.\n\n"
+            "**Econometric Results** \u2014 OLS and Panel OLS regression results.\n\n"
+            "**Predictive Analytics** \u2014 ML model performance and feature importance.\n\n"
+            "**Policy Recommendations** \u2014 Ranked country priorities and stage-template policy bundles.\n\n"
+            "**What-If Simulation** \u2014 Scenario uplift analysis using normalized composite index scores."
         )
 
         st.markdown("---")
@@ -1455,27 +1495,251 @@ def _render_econometric_results() -> None:
 # ── Tab: What-If Simulation ─────────────────────────────────────────────────
 
 def _render_simulation(df: pd.DataFrame, key_prefix: str = "sim", show_header: bool = True) -> None:
+    del df  # Prescriptive views are sourced from generated scenario artifacts.
     if show_header:
         st.header("What-If Simulation")
     _section_intro(
-        "This section is pending implementation. "
-        "TODO: complete Story 6 scenario engine with baseline-vs-scenario outcome deltas."
+        "Story 6 compares baseline and reform pathways using a normalized composite score "
+        "index (0-100) for the latest-year country snapshot. Focus on uplift versus baseline "
+        "to identify relatively stronger intervention bundles."
     )
-    st.info(
-        "Planned: scenario controls, predicted metric deltas, and exportable scenario summaries."
+
+    scenario_df = load_optional_csv(SCENARIO_RESULTS_PATH)
+    summary_df = load_optional_csv(SCENARIO_SUMMARY_PATH)
+    if scenario_df is None or summary_df is None:
+        st.info(
+            "Scenario artifacts are missing. Run `python scripts/run_pipeline.py --stage models` "
+            "to generate `scenario_results.csv` and `scenario_summary.csv`."
+        )
+        return
+    if scenario_df.empty:
+        st.warning("Scenario results are empty.")
+        return
+
+    latest_year = int(scenario_df["year"].max()) if "year" in scenario_df.columns else None
+    if latest_year is not None:
+        st.caption(
+            f"Simulation basis: latest-year snapshot ({latest_year}). Scores are comparative index values, "
+            "not direct GDP/Gini unit forecasts."
+        )
+
+    if "best_scenario" in summary_df.columns and not summary_df.empty:
+        scenario_counts = summary_df["best_scenario"].value_counts()
+        dominant = str(scenario_counts.index[0])
+        dominant_n = int(scenario_counts.iloc[0])
+        total_n = int(len(summary_df))
+        _insight_callout(
+            "Cross-Country Pattern",
+            f"{dominant} is currently the top scenario for {dominant_n}/{total_n} countries in this run.",
+            tone="neutral",
+        )
+
+    countries = sorted(scenario_df["country"].dropna().astype(str).unique().tolist())
+    country = st.selectbox("Country Scenario Focus", countries, key=f"{key_prefix}_country")
+
+    country_df = scenario_df[scenario_df["country"] == country].copy()
+    country_summary = summary_df[summary_df["country"] == country]
+    baseline_row = country_df[country_df["scenario"] == "Baseline (No Change)"]
+    if baseline_row.empty:
+        st.warning("Baseline scenario row is missing for this country.")
+        return
+
+    baseline_score = float(baseline_row["projected_score"].iloc[0])
+    best_scenario = (
+        country_summary["best_scenario"].iloc[0]
+        if not country_summary.empty
+        else country_df[country_df["scenario"] != "Baseline (No Change)"]
+        .sort_values("projected_score", ascending=False)["scenario"]
+        .iloc[0]
     )
+    best_row = country_df[country_df["scenario"] == best_scenario].iloc[0]
+
+    m1, m2 = st.columns(2)
+    m1.metric("Baseline Index", f"{baseline_score:.2f}")
+    m2.metric("Best Scenario", str(best_scenario))
+    m3, m4 = st.columns(2)
+    m3.metric("Best Index", f"{float(best_row['projected_score']):.2f}")
+    m4.metric("Best Uplift", f"{float(best_row['uplift_vs_baseline']):+.2f}")
+
+    _insight_callout(
+        "Country Scenario Signal",
+        f"For {country}, the highest projected gain comes from {best_scenario} "
+        f"with an uplift of {float(best_row['uplift_vs_baseline']):+.2f} points.",
+        tone="positive" if float(best_row["uplift_vs_baseline"]) > 0 else "neutral",
+    )
+
+    scenario_order = [
+        "Baseline (No Change)",
+        "Scenario A - Health Push",
+        "Scenario B - Inequality Reduction",
+        "Scenario C - Economic Acceleration",
+        "Scenario D - Comprehensive Reform",
+    ]
+    country_df["scenario"] = pd.Categorical(country_df["scenario"], categories=scenario_order, ordered=True)
+    country_df = country_df.sort_values("scenario")
+
+    color_domain = scenario_order
+    color_range = ["#95A5A6", "#3182CE", "#DD6B20", "#38A169", "#805AD5"]
+    chart = (
+        alt.Chart(country_df)
+        .mark_bar()
+        .encode(
+            x=alt.X("scenario:N", sort=scenario_order, title="Scenario"),
+            y=alt.Y("projected_score:Q", title="Projected Composite Index (0-100)"),
+            color=alt.Color("scenario:N", scale=alt.Scale(domain=color_domain, range=color_range), legend=None),
+            tooltip=[
+                "country:N",
+                "scenario:N",
+                alt.Tooltip("projected_score:Q", format=".2f"),
+                alt.Tooltip("uplift_vs_baseline:Q", format="+.2f"),
+            ],
+        )
+        .properties(height=360)
+    )
+    rule = alt.Chart(pd.DataFrame({"y": [baseline_score]})).mark_rule(
+        color=COLORS["danger"], strokeDash=[6, 4]
+    ).encode(y="y:Q")
+    st.altair_chart((chart + rule).interactive(), use_container_width=True)
+
+    scenario_uplift = scenario_df[scenario_df["scenario"] != "Baseline (No Change)"].copy()
+    avg_uplift = (
+        scenario_uplift.groupby("scenario", as_index=False)["uplift_vs_baseline"]
+        .mean()
+        .sort_values("uplift_vs_baseline", ascending=False)
+    )
+    st.markdown("#### Average Uplift by Scenario")
+    avg_chart = (
+        alt.Chart(avg_uplift)
+        .mark_bar()
+        .encode(
+            x=alt.X("uplift_vs_baseline:Q", title="Average Uplift vs Baseline"),
+            y=alt.Y("scenario:N", sort="-x", title=""),
+            color=alt.Color("uplift_vs_baseline:Q", scale=_neutral_scale(), legend=None),
+            tooltip=["scenario:N", alt.Tooltip("uplift_vs_baseline:Q", format="+.2f")],
+        )
+        .properties(height=230)
+    )
+    st.altair_chart(avg_chart, use_container_width=True)
+
+    st.markdown("#### Scenario Summary by Country")
+    st.dataframe(summary_df.sort_values("best_uplift_vs_baseline", ascending=False), use_container_width=True, hide_index=True)
 
 
 # ── Tab: Policy Recommendations ─────────────────────────────────────────────
 
-def _render_policy_recommendations() -> None:
-    st.header("Policy Recommendations")
+def _render_policy_recommendations(show_header: bool = True, key_prefix: str = "rec") -> None:
+    if show_header:
+        st.header("Policy Recommendations")
     _section_intro(
-        "This section is pending implementation while the recommendation engine is being built."
+        "Story 5 ranks countries using weighted scores across inequality, health, demographics, "
+        "and economics for the latest-year snapshot. Policy actions are currently stage-template "
+        "recommendations based on DTM/ETM pairings."
     )
-    st.info(
-        "TODO: implement ranked recommendation logic, country-level policy actions, and theme summaries."
+
+    ranked_df = load_optional_csv(RECOMMENDATION_RANKED_PATH)
+    evidence_df = load_optional_csv(RECOMMENDATION_EVIDENCE_PATH)
+    if ranked_df is None or ranked_df.empty:
+        st.info(
+            "Recommendation artifacts are missing. Run `python scripts/run_pipeline.py --stage models` "
+            "to generate `policy_recommendations_ranked.csv`."
+        )
+        return
+
+    ranked_df = ranked_df.sort_values("composite_score", ascending=False).reset_index(drop=True)
+    latest_year = int(ranked_df["year"].max()) if "year" in ranked_df.columns else None
+    unique_bundles = int(ranked_df["policy_bundle"].nunique()) if "policy_bundle" in ranked_df.columns else 0
+    if latest_year is not None:
+        st.caption(
+            f"Recommendation basis: latest-year snapshot ({latest_year}). "
+            f"This run contains {unique_bundles} unique policy bundle templates across {len(ranked_df)} countries."
+        )
+    countries = ranked_df["country"].dropna().astype(str).unique().tolist()
+    selected_country = st.selectbox("Country Recommendation Focus", countries, key=f"{key_prefix}_country")
+    selected = ranked_df[ranked_df["country"] == selected_country].iloc[0]
+
+    c1, c2 = st.columns(2)
+    c1.metric("Composite Score", f"{float(selected['composite_score']):.2f}")
+    dtm = selected.get("dtm_stage", np.nan)
+    etm = selected.get("etm_stage", np.nan)
+    if pd.notna(dtm) and pd.notna(etm):
+        c2.metric("DTM / ETM", f"{int(float(dtm))} / {int(float(etm))}")
+    else:
+        c2.metric("DTM / ETM", "N/A")
+    c3, c4 = st.columns(2)
+    c3.metric("Tier", str(selected["recommendation_tier"]))
+    c4.metric("Income Group", str(selected.get("income_group", "N/A")))
+
+    st.markdown("#### Recommended Policy Actions")
+    for col in ["policy_1", "policy_2", "policy_3"]:
+        text = selected.get(col, "")
+        if isinstance(text, str) and text.strip():
+            st.markdown(f"- {text}")
+
+    tier_scale = alt.Scale(
+        domain=[
+            "Tier 1 - Sustain & Lead",
+            "Tier 2 - Optimise",
+            "Tier 3 - Transition",
+            "Tier 4 - Critical Intervention",
+        ],
+        range=["#2ecc71", "#3498db", "#f39c12", "#e74c3c"],
     )
+    rank_chart = (
+        alt.Chart(ranked_df)
+        .mark_bar()
+        .encode(
+            x=alt.X("composite_score:Q", title="Composite Score"),
+            y=alt.Y("country:N", sort="-x", title=""),
+            color=alt.Color("recommendation_tier:N", scale=tier_scale, title="Tier"),
+            tooltip=[
+                "country:N",
+                alt.Tooltip("composite_score:Q", format=".2f"),
+                "recommendation_tier:N",
+                "income_group:N",
+            ],
+        )
+        .properties(height=max(300, len(ranked_df) * 24))
+    )
+    st.markdown("#### Country Ranking")
+    st.altair_chart(rank_chart, use_container_width=True)
+
+    if evidence_df is not None and not evidence_df.empty:
+        country_evidence = evidence_df[evidence_df["country"] == selected_country].copy()
+        if not country_evidence.empty:
+            st.markdown("#### Dimension Evidence")
+            dim_chart = (
+                alt.Chart(country_evidence)
+                .mark_bar()
+                .encode(
+                    x=alt.X("dimension:N", title="Dimension"),
+                    y=alt.Y("dimension_score:Q", title="Dimension Score"),
+                    color=alt.Color("dimension_score:Q", scale=_neutral_scale(), legend=None),
+                    tooltip=[
+                        "country:N",
+                        "dimension:N",
+                        alt.Tooltip("dimension_score:Q", format=".2f"),
+                        alt.Tooltip("dimension_rank:Q", format=".0f", title="Rank"),
+                    ],
+                )
+                .properties(height=300)
+            )
+            st.altair_chart(dim_chart, use_container_width=True)
+
+            strongest = country_evidence.sort_values("dimension_score", ascending=False).iloc[0]
+            weakest = country_evidence.sort_values("dimension_score", ascending=True).iloc[0]
+            _insight_callout(
+                "Country Priority Signal",
+                f"{selected_country} shows strongest performance in {strongest['dimension']} "
+                f"({float(strongest['dimension_score']):.1f}) and weakest performance in "
+                f"{weakest['dimension']} ({float(weakest['dimension_score']):.1f}).",
+                tone="neutral",
+            )
+            st.caption(
+                "Dimension evidence reflects normalized weighted component scores, used for transparent ranking support."
+            )
+
+    st.markdown("#### Ranked Table")
+    st.dataframe(ranked_df, use_container_width=True, hide_index=True)
 
 
 # ── Tab: Story Mode ─────────────────────────────────────────────────────────
@@ -1581,11 +1845,11 @@ def _render_story_mode(df: pd.DataFrame) -> None:
 
         _story_section(
             "Decision Layer",
-            "Policy recommendation details for this story are intentionally pending implementation.",
+            "Action prioritization is now available through Story 5 and the Policy Recommendations tab.",
             label="Takeaway",
         )
         st.markdown(
-            '<div class="story-placeholder"><strong>Pending:</strong> Complete recommendation engine outputs for Story 5 and connect them here.</div>',
+            '<div class="story-placeholder"><strong>Next step:</strong> Open Story 5 for ranked policy bundles and supporting dimension evidence.</div>',
             unsafe_allow_html=True,
         )
 
@@ -1828,20 +2092,17 @@ def _render_story_mode(df: pd.DataFrame) -> None:
     elif story["id"] == "Story 5":
         _story_section(
             "Ranked Policy Priorities",
-            "This prescriptive story is intentionally reserved for upcoming implementation work.",
-            label="Takeaway",
+            "Country tiers and policy bundles are now generated by the recommendation engine.",
+            label="Evidence",
         )
-        st.markdown(
-            '<div class="story-placeholder"><strong>Pending:</strong> Add recommendation scoring logic, country ranking view, and grouped policy themes.</div>',
-            unsafe_allow_html=True,
-        )
+        _render_policy_recommendations(show_header=False, key_prefix="story5")
 
     # ── Story 6: What-If Simulation ──
     elif story["id"] == "Story 6":
         _story_section(
             "What-If Reform Simulation",
-            "Scenario controls and impact deltas are planned and will be added in a future sprint.",
-            label="Takeaway",
+            "Scenario outputs are generated from the simulation engine and compared against baseline.",
+            label="Evidence",
         )
         _render_simulation(df, key_prefix="story6", show_header=False)
 
@@ -1888,10 +2149,10 @@ def main() -> None:
         "Story Mode",
         "Data Explorer",
         "Descriptive Analytics",
-        "Predictive Analytics",
         "Econometric Results",
-        "What-If Simulation",
+        "Predictive Analytics",
         "Policy Recommendations",
+        "What-If Simulation",
     ])
 
     with tabs[0]:
@@ -1903,13 +2164,13 @@ def main() -> None:
     with tabs[3]:
         _render_descriptive_analytics(df)
     with tabs[4]:
-        _render_predictive_analytics()
-    with tabs[5]:
         _render_econometric_results()
+    with tabs[5]:
+        _render_predictive_analytics()
     with tabs[6]:
-        _render_simulation(df)
-    with tabs[7]:
         _render_policy_recommendations()
+    with tabs[7]:
+        _render_simulation(df)
 
     _render_footer()
 
