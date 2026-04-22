@@ -60,50 +60,50 @@ USER_STORIES: List[Dict[str, str]] = [
     {
         "id": "Story 1",
         "type": "Descriptive",
-        "title": "Country Inequality Reduction for Sustainable Growth",
-        "persona": "Government member of an ASEAN country",
-        "goal": "Identify policies to reduce inequality while sustaining economic development.",
-        "description": "As a member of the government for one of ASEAN\u2019s member countries, I want to identify policies to reduce inequality so that we can continue to develop economically.",
+        "title": "Country-Level Socioeconomic Comparison for ASEAN Progress",
+        "persona": "ASEAN Economic Community Department",
+        "goal": "Summarize inequality and key socioeconomic indicators by country to compare trends in support of ASEAN goals.",
+        "description": "As a member of ASEAN’s Economic Community Department, I want to summarize inequality and key socioeconomic indicators by country to compare trends in order to support ASEAN’s goals.",
     },
     {
         "id": "Story 2",
         "type": "Descriptive",
-        "title": "Country-Level Socioeconomic Comparison for ASEAN Progress",
-        "persona": "ASEAN Economic Community Department",
-        "goal": "Summarize inequality and key socioeconomic indicators by country to compare trends in support of ASEAN’s goal of accelerating economic growth, social progress, and cultural development in the region.",
-        "description": "As a member of ASEAN’s Economic Community Department, I want to summarize inequality and key socioeconomic indicators by country to compare trends in an effort to support ASEAN’s goal of accelerating “the economic growth, social progress and cultural development in the region”.",
+        "title": "Trade-Inequality Correlation Monitoring",
+        "persona": "ASEAN Trade Facilitation Division",
+        "goal": "Observe how inequality moves with trade openness so policy adjustments can be prioritized.",
+        "description": "As a member of ASEAN’s Trade Facilitation Division, I want to observe how the Gini index is correlated with international trade so that we can identify what policies need to be modified or implemented.",
     },
     {
         "id": "Story 3",
         "type": "Predictive",
-        "title": "Predict Gini with Trade-Relevant Signals",
-        "persona": "ASEAN Trade Facilitation Division",
-        "goal": "Understand predictive relationship between inequality and trade for policy tuning.",
-        "description": "As a member of ASEAN’s Trade Facilitation Division, I want to predict how the Gini index is correlated with international trade so that we can identify what policies need to be modified or implemented.",
+        "title": "Predict GDP Growth Competitiveness Signals",
+        "persona": "ASEAN country government",
+        "goal": "Predict GDP growth pathways to improve competitiveness against larger economies.",
+        "description": "As a member of the government of one of ASEAN’s member countries, I want to predict how to grow GDP so that our country can grow economically and compete alongside larger countries.",
     },
     {
         "id": "Story 4",
         "type": "Predictive",
-        "title": "Predict GDP Growth Competitiveness Signals",
-        "persona": "ASEAN country government",
-        "goal": "Predict GDP growth pathways to improve competitiveness.",
-        "description": "As a member of the government of one of ASEAN’s member countries, I want to predict how to grow GDP across so that our country can grow economically and compete alongside larger countries.",
+        "title": "Predictive Reform Impact Signals",
+        "persona": "ASEAN country economic planner",
+        "goal": "Simulate how reforms in trade, governance proxies, and demographics affect GDP and inequality outcomes.",
+        "description": "As an economic planner in an ASEAN member country, I want to simulate how changes in trade openness, governance, or demographic indicators would affect inequality and GDP outcomes so that we can implement data-driven reforms with economic impact.",
     },
     {
         "id": "Story 5",
+        "type": "Prescriptive",
+        "title": "Country Inequality Reduction for Sustainable Growth",
+        "persona": "Government member of an ASEAN country",
+        "goal": "Identify policies to reduce inequality while sustaining economic development.",
+        "description": "As a member of the government for one of ASEAN’s member countries, I want to identify policies to reduce inequality so that we can continue to develop economically.",
+    },
+    {
+        "id": "Story 6",
         "type": "Prescriptive",
         "title": "Ranked Policy Recommendations",
         "persona": "ASEAN Economic Research policy advisor",
         "goal": "Prioritize high-impact reforms using modeled relationships and current risk conditions.",
         "description": "As a policy advisor within ASEAN’s Economic Research Institute, I want to receive ranked policy recommendations based on modeled relationships between inequality, trade, governance, and demographic stage so that we can prioritize the most impactful policy reforms for member countries.",
-    },
-    {
-        "id": "Story 6",
-        "type": "Prescriptive",
-        "title": "What-If Reform Simulation",
-        "persona": "ASEAN country economic planner",
-        "goal": "Simulate reforms in trade, governance proxies, and demographics before implementation.",
-        "description": "As an economic planner in an ASEAN member country, I want to simulate how changes in trade openness, governance, or demographic indicators would affect inequality and GDP outcomes so that we can implement data-driven reforms with economic impact.",
     },
 ]
 
@@ -761,6 +761,7 @@ def _render_sidebar(df: pd.DataFrame) -> None:
         # Quick guide
         st.markdown("### Quick Guide")
         st.markdown(
+            "**Intro** \u2014 Team/project overview, ASEAN context, and policy-transfer framing.\n\n"
             "**Executive Summary** \u2014 High-level trends and model performance snapshot.\n\n"
             "**Story Mode** \u2014 Narrative walkthroughs tied to real policy questions.\n\n"
             "**Data Explorer** \u2014 Filter, browse, and download the panel dataset.\n\n"
@@ -768,7 +769,7 @@ def _render_sidebar(df: pd.DataFrame) -> None:
             "**Econometric Results** \u2014 OLS and Panel OLS regression results.\n\n"
             "**Predictive Analytics** \u2014 ML model performance and feature importance.\n\n"
             "**Policy Recommendations** \u2014 Ranked country priorities and stage-template policy bundles.\n\n"
-            "**What-If Simulation** \u2014 Scenario uplift analysis using normalized composite index scores."
+            "**What-If Simulation** \u2014 Policy-impact scenario analysis aligned with recommendation pathways."
         )
 
         st.markdown("---")
@@ -777,8 +778,48 @@ def _render_sidebar(df: pd.DataFrame) -> None:
             "Built for academic evaluation and portfolio demonstration. "
             "Data sourced from World Bank, WHO, and UN indicators."
             "</div>",
-            unsafe_allow_html=True,
-        )
+        unsafe_allow_html=True,
+    )
+
+
+# ── Tab: Intro ─────────────────────────────────────────────────────────────
+
+def _render_intro(df: pd.DataFrame) -> None:
+    st.header("Intro")
+    _section_intro(
+        "Project orientation for presentation context: who ASEAN is, what this dashboard does, "
+        "and why cross-country evidence (including non-ASEAN comparators) strengthens policy design."
+    )
+
+    countries = int(df["country"].nunique()) if "country" in df.columns else 0
+    min_year = int(df["year"].min()) if "year" in df.columns and not df.empty else None
+    max_year = int(df["year"].max()) if "year" in df.columns and not df.empty else None
+
+    c1, c2, c3 = st.columns(3)
+    c1.metric("Countries Covered", countries)
+    c2.metric("Panel Window", f"{min_year}\u2013{max_year}" if min_year is not None and max_year is not None else "N/A")
+    c3.metric("Observations", f"{len(df):,}")
+
+    st.markdown("### Team and Objective")
+    st.markdown(
+        "- Build a decision-support dashboard for ASEAN-focused inequality and development analysis.\n"
+        "- Combine descriptive, econometric, predictive, and prescriptive workflows in one interface.\n"
+        "- Turn analysis outputs into actionable policy recommendations and scenario comparisons."
+    )
+
+    st.markdown("### Who and What is ASEAN")
+    st.markdown(
+        "- ASEAN is the Association of Southeast Asian Nations, a regional bloc focused on economic growth, social progress, and cooperation.\n"
+        "- This project supports ASEAN-oriented planning by translating socioeconomic indicators into policy signals.\n"
+        "- Country-level comparisons help surface where targeted interventions may be most impactful."
+    )
+
+    st.markdown("### Why Include Non-ASEAN Countries")
+    st.markdown(
+        "- Non-ASEAN countries are included as comparator signals for trend and policy analysis.\n"
+        "- This broader reference set helps identify potentially transferable policy patterns.\n"
+        "- Recommended actions are still interpreted through ASEAN country context before adoption."
+    )
 
 
 # ── Header ──────────────────────────────────────────────────────────────────
@@ -1066,13 +1107,13 @@ def _render_descriptive_analytics(df: pd.DataFrame) -> None:
 
 # ── Tab: Predictive Analytics ───────────────────────────────────────────────
 
-def _render_predictive_analytics() -> None:
+def _render_predictive_analytics(df: pd.DataFrame) -> None:
     st.header("Predictive Analytics")
     _section_intro(
         "Multiple machine-learning models (Linear, Ridge, Lasso, Gradient Boosting, Random Forest) "
         "were trained on the panel dataset for each target variable. This section lets you compare "
         "model accuracy, inspect predictions vs. actuals, review residual distributions, and "
-        "identify which features matter most."
+        "identify which features matter most. This tab primarily supports Story 3 and Story 4."
     )
     _glossary_expander(["RMSE", "MAE", "R\u00b2", "MAPE"])
 
@@ -1350,18 +1391,40 @@ def _render_predictive_analytics() -> None:
             "to generate `predictions_*.csv` files."
         )
 
-    # Feature importance
+    # Feature importance + predictor relationship
     importance_df = importance_tables.get(target)
     if importance_df is not None and not importance_df.empty:
-        st.markdown("#### Feature Importance (Random Forest)")
-        st.caption("Shows which variables contribute most to predictions. Higher importance = stronger influence on the target.")
-        top_n = st.slider("Top Features", min_value=5, max_value=min(20, len(importance_df)), value=min(10, len(importance_df)), step=1, key="pred_top_features")
-        top_features = importance_df.head(top_n).sort_values("importance", ascending=True)
+        st.markdown("#### Feature Importance")
+        if "model" in importance_df.columns:
+            model_options = sorted(importance_df["model"].dropna().astype(str).unique().tolist())
+            selected_importance_model = st.selectbox(
+                "Importance Model",
+                options=model_options,
+                key=f"pred_importance_model_{target}",
+            )
+            view_importance_df = importance_df[importance_df["model"] == selected_importance_model].copy()
+        else:
+            selected_importance_model = "Random Forest"
+            view_importance_df = importance_df.copy()
+            st.caption("Current pipeline exports feature-importance tables from Random Forest.")
+
+        st.caption(
+            "Shows which variables contribute most to predictions. Higher importance = stronger influence on the target."
+        )
+        top_n = st.slider(
+            "Top Features",
+            min_value=5,
+            max_value=min(20, len(view_importance_df)),
+            value=min(10, len(view_importance_df)),
+            step=1,
+            key=f"pred_top_features_{target}",
+        )
+        top_features = view_importance_df.head(top_n).sort_values("importance", ascending=True)
         imp_chart = (
             alt.Chart(top_features)
             .mark_bar()
             .encode(
-                x=alt.X("importance:Q", title="Importance"),
+                x=alt.X("importance:Q", title=f"Importance ({selected_importance_model})"),
                 y=alt.Y("feature:N", sort="-x", title=""),
                 color=alt.Color("importance:Q", scale=_neutral_scale(), legend=None),
                 tooltip=[alt.Tooltip("feature:N"), alt.Tooltip("importance:Q", format=".4f")],
@@ -1369,6 +1432,65 @@ def _render_predictive_analytics() -> None:
             .properties(height=max(250, top_n * 28))
         )
         st.altair_chart(imp_chart, use_container_width=True)
+    else:
+        st.info("Feature importance table not found for the selected target.")
+
+    if target in df.columns:
+        predictor_candidates = [
+            c
+            for c in df.select_dtypes(include="number").columns
+            if c not in {"year", target}
+        ]
+        if predictor_candidates:
+            st.markdown("#### Predictor vs. Target Relationship")
+            st.caption(
+                "Use this to inspect how any predictor aligns with the selected target across observations."
+            )
+            p1, p2 = st.columns([2, 2])
+            with p1:
+                predictor = st.selectbox(
+                    "Predictor",
+                    options=sorted(predictor_candidates),
+                    key=f"pred_relationship_predictor_{target}",
+                )
+            with p2:
+                relation_view = st.selectbox(
+                    "Relationship View",
+                    options=["All Observations", "Country Averages"],
+                    key=f"pred_relationship_view_{target}",
+                )
+
+            rel_df = df[["country", "year", predictor, target]].dropna().copy()
+            if relation_view == "Country Averages":
+                rel_df = (
+                    rel_df.groupby("country", as_index=False)[[predictor, target]]
+                    .mean()
+                )
+
+            if not rel_df.empty:
+                color_encoding = (
+                    alt.Color("country:N", title="Country")
+                    if "country" in rel_df.columns and rel_df["country"].nunique() <= 20
+                    else alt.value(COLORS["secondary"])
+                )
+
+                scatter = (
+                    alt.Chart(rel_df)
+                    .mark_circle(size=65, opacity=0.65)
+                    .encode(
+                        x=alt.X(f"{predictor}:Q", title=_pretty(predictor)),
+                        y=alt.Y(f"{target}:Q", title=_pretty(target)),
+                        color=color_encoding,
+                        tooltip=[alt.Tooltip(c) for c in rel_df.columns],
+                    )
+                    .properties(height=360)
+                )
+                trend_line = scatter.transform_regression(predictor, target).mark_line(
+                    color=COLORS["danger"], strokeDash=[6, 4]
+                )
+                st.altair_chart((scatter + trend_line).interactive(), use_container_width=True)
+            else:
+                st.info("No rows available for the selected predictor/target pairing.")
 
     # Country average
     country_avg_df = country_avg_tables.get(target)
@@ -1501,9 +1623,9 @@ def _render_simulation(df: pd.DataFrame, key_prefix: str = "sim", show_header: b
     if show_header:
         st.header("What-If Simulation")
     _section_intro(
-        "Story 6 compares baseline and reform pathways using a normalized composite score "
-        "index (0-100) for the latest-year country snapshot. Focus on uplift versus baseline "
-        "to identify relatively stronger intervention bundles."
+        "Policy-impact simulation layer for Story 6 (prescriptive recommendations). "
+        "Compare baseline and reform pathways using a normalized composite score index (0-100) "
+        "for the latest-year country snapshot to estimate post-policy uplift."
     )
 
     scenario_df = load_optional_csv(SCENARIO_RESULTS_PATH)
@@ -1577,6 +1699,12 @@ def _render_simulation(df: pd.DataFrame, key_prefix: str = "sim", show_header: b
         "Scenario C - Economic Acceleration",
         "Scenario D - Comprehensive Reform",
     ]
+    scenario_metric = st.selectbox(
+        "Scenario Metric",
+        options=["projected_score", "uplift_vs_baseline"],
+        format_func=lambda x: "Projected Composite Index" if x == "projected_score" else "Uplift vs Baseline",
+        key=f"{key_prefix}_scenario_metric",
+    )
     country_df["scenario"] = pd.Categorical(country_df["scenario"], categories=scenario_order, ordered=True)
     country_df = country_df.sort_values("scenario")
 
@@ -1587,7 +1715,10 @@ def _render_simulation(df: pd.DataFrame, key_prefix: str = "sim", show_header: b
         .mark_bar()
         .encode(
             x=alt.X("scenario:N", sort=scenario_order, title="Scenario"),
-            y=alt.Y("projected_score:Q", title="Projected Composite Index (0-100)"),
+            y=alt.Y(
+                f"{scenario_metric}:Q",
+                title="Projected Composite Index (0-100)" if scenario_metric == "projected_score" else "Uplift vs Baseline",
+            ),
             color=alt.Color("scenario:N", scale=alt.Scale(domain=color_domain, range=color_range), legend=None),
             tooltip=[
                 "country:N",
@@ -1598,7 +1729,8 @@ def _render_simulation(df: pd.DataFrame, key_prefix: str = "sim", show_header: b
         )
         .properties(height=360)
     )
-    rule = alt.Chart(pd.DataFrame({"y": [baseline_score]})).mark_rule(
+    rule_value = baseline_score if scenario_metric == "projected_score" else 0.0
+    rule = alt.Chart(pd.DataFrame({"y": [rule_value]})).mark_rule(
         color=COLORS["danger"], strokeDash=[6, 4]
     ).encode(y="y:Q")
     st.altair_chart((chart + rule).interactive(), use_container_width=True)
@@ -1633,9 +1765,10 @@ def _render_policy_recommendations(show_header: bool = True, key_prefix: str = "
     if show_header:
         st.header("Policy Recommendations")
     _section_intro(
-        "Story 5 ranks countries using weighted scores across inequality, health, demographics, "
-        "and economics for the latest-year snapshot. Policy actions are currently stage-template "
-        "recommendations based on DTM/ETM pairings."
+        "Story 6 ranks countries using weighted scores across inequality, health, demographics, "
+        "and economics for the latest-year snapshot. Policy actions are stage-template "
+        "recommendations based on DTM/ETM pairings, with a linked What-If simulation layer for "
+        "post-policy impact screening."
     )
 
     ranked_df = load_optional_csv(RECOMMENDATION_RANKED_PATH)
@@ -1686,11 +1819,22 @@ def _render_policy_recommendations(show_header: bool = True, key_prefix: str = "
         ],
         range=["#2ecc71", "#3498db", "#f39c12", "#e74c3c"],
     )
+    rank_metric_candidates = [
+        c
+        for c in ["composite_score", "dtm_stage", "etm_stage"]
+        if c in ranked_df.columns and ranked_df[c].notna().any()
+    ]
+    rank_metric = st.selectbox(
+        "Ranking Metric",
+        options=rank_metric_candidates if rank_metric_candidates else ["composite_score"],
+        format_func=_pretty,
+        key=f"{key_prefix}_rank_metric",
+    )
     rank_chart = (
         alt.Chart(ranked_df)
         .mark_bar()
         .encode(
-            x=alt.X("composite_score:Q", title="Composite Score"),
+            x=alt.X(f"{rank_metric}:Q", title=_pretty(rank_metric)),
             y=alt.Y("country:N", sort="-x", title=""),
             color=alt.Color("recommendation_tier:N", scale=tier_scale, title="Tier"),
             tooltip=[
@@ -1740,6 +1884,12 @@ def _render_policy_recommendations(show_header: bool = True, key_prefix: str = "
                 "Dimension evidence reflects normalized weighted component scores, used for transparent ranking support."
             )
 
+    st.markdown("#### Policy Impact What-If (Story 6 Follow-Up)")
+    st.caption(
+        "Use this simulation view to estimate potential uplift after selecting policy pathways."
+    )
+    _render_simulation(ranked_df, key_prefix=f"{key_prefix}_whatif", show_header=False)
+
     st.markdown("#### Ranked Table")
     st.dataframe(ranked_df, use_container_width=True, hide_index=True)
 
@@ -1784,10 +1934,10 @@ def _render_story_mode(df: pd.DataFrame) -> None:
     model_tables = load_model_result_tables(RESULTS_DIR)
     prediction_tables = load_target_tables(RESULTS_DIR, "predictions_")
 
-    # ── Story 1: Country Inequality ──
-    if story["id"] == "Story 1":
+    # ── Story 5: Country Inequality ──
+    if story["id"] == "Story 5":
         countries = sorted(df["country"].dropna().astype(str).unique().tolist())
-        country = st.selectbox("Country Focus", countries, index=0, key="story1_country")
+        country = st.selectbox("Country Focus", countries, index=0, key="story5_country")
         country_df = df[df["country"] == country].sort_values("year")
         if country_df.empty:
             st.warning("No records found for selected country.")
@@ -1847,16 +1997,16 @@ def _render_story_mode(df: pd.DataFrame) -> None:
 
         _story_section(
             "Decision Layer",
-            "Action prioritization is now available through Story 5 and the Policy Recommendations tab.",
+            "Action prioritization is now available through Story 6 and the Policy Recommendations tab.",
             label="Takeaway",
         )
         st.markdown(
-            '<div class="story-placeholder"><strong>Next step:</strong> Open Story 5 for ranked policy bundles and supporting dimension evidence.</div>',
+            '<div class="story-placeholder"><strong>Next step:</strong> Open Story 6 for ranked policy bundles and supporting dimension evidence.</div>',
             unsafe_allow_html=True,
         )
 
-    # ── Story 2: ASEAN-Wide Inequality Monitoring ──
-    elif story["id"] == "Story 2":
+    # ── Story 1: ASEAN-Wide Inequality Monitoring ──
+    elif story["id"] == "Story 1":
         if "gini_index" not in df.columns:
             st.warning("`gini_index` is required for this story.")
             return
@@ -1930,16 +2080,16 @@ def _render_story_mode(df: pd.DataFrame) -> None:
         )
         st.altair_chart(bar, use_container_width=True)
 
-    # ── Story 3: Gini + Trade Prediction ──
-    elif story["id"] == "Story 3":
+    # ── Story 2: Gini + Trade Correlation ──
+    elif story["id"] == "Story 2":
         _story_section(
             "Trade and Inequality Signal",
-            "Assess whether trade openness is informative for forecasting inequality and where model limits remain.",
+            "Assess whether trade openness co-moves with inequality and where model limits remain.",
             label="Context",
         )
         gini_results = model_tables.get("gini_index")
         if gini_results is not None:
-            st.markdown("#### Gini Prediction Model Performance")
+            st.markdown("#### Gini Model Performance Snapshot")
             gini_sorted = gini_results.sort_values("rmse")
             st.dataframe(gini_sorted, use_container_width=True, hide_index=True)
             if not gini_sorted.empty:
@@ -2003,8 +2153,8 @@ def _render_story_mode(df: pd.DataFrame) -> None:
             )
             st.altair_chart(line.interactive(), use_container_width=True)
 
-    # ── Story 4: GDP Competitiveness ──
-    elif story["id"] == "Story 4":
+    # ── Story 3: GDP Competitiveness ──
+    elif story["id"] == "Story 3":
         _story_section(
             "GDP Growth Competitiveness",
             "Evaluate which GDP target formulation is modeled more reliably, then inspect where country-level errors concentrate.",
@@ -2015,7 +2165,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
             options=["gdp_per_capita", "log_gdp_per_capita"],
             format_func=_pretty,
             horizontal=True,
-            key="story4_target",
+            key="story3_target",
         )
         target_results = model_tables.get(target_choice)
         if target_results is not None:
@@ -2090,23 +2240,133 @@ def _render_story_mode(df: pd.DataFrame) -> None:
         )
         st.altair_chart(err_chart, use_container_width=True)
 
-    # ── Story 5: Ranked Policy Priorities ──
-    elif story["id"] == "Story 5":
+    # ── Story 6: Ranked Policy Priorities ──
+    elif story["id"] == "Story 6":
         _story_section(
             "Ranked Policy Priorities",
             "Country tiers and policy bundles are now generated by the recommendation engine.",
             label="Evidence",
         )
-        _render_policy_recommendations(show_header=False, key_prefix="story5")
+        _render_policy_recommendations(show_header=False, key_prefix="story6")
 
-    # ── Story 6: What-If Simulation ──
-    elif story["id"] == "Story 6":
+    # ── Story 4: Predictive Reform Impact ──
+    elif story["id"] == "Story 4":
         _story_section(
-            "What-If Reform Simulation",
-            "Scenario outputs are generated from the simulation engine and compared against baseline.",
+            "Predictive Reform Impact",
+            "Use model evidence to test how changes in key predictors are associated with GDP and inequality outcomes.",
+            label="Context",
+        )
+        candidate_targets = [t for t in ["gdp_per_capita", "log_gdp_per_capita", "gini_index"] if t in model_tables]
+        if not candidate_targets:
+            st.info("No predictive target tables available for Story 4 yet.")
+            return
+
+        story4_target = st.selectbox(
+            "Outcome to Analyze",
+            options=candidate_targets,
+            format_func=_pretty,
+            key="story4_target",
+        )
+        story4_results = model_tables.get(story4_target)
+        if story4_results is None or story4_results.empty:
+            st.info("Model performance table missing for the selected Story 4 target.")
+            return
+
+        story4_ranked = story4_results.sort_values("rmse")
+        st.markdown(f"#### {_pretty(story4_target)} Model Performance")
+        st.dataframe(story4_ranked, use_container_width=True, hide_index=True)
+
+        best_story4 = story4_ranked.iloc[0]
+        _story_takeaway(
+            f"Best current {_pretty(story4_target)} model is {str(best_story4['model']).replace('_', ' ').title()} "
+            f"(R\u00b2 {float(best_story4['r2']):.3f}, RMSE {float(best_story4['rmse']):,.2f}).",
+            tone="neutral",
+        )
+
+        importance_df = load_target_tables(RESULTS_DIR, "feature_importance_").get(story4_target)
+        if importance_df is not None and not importance_df.empty and "feature" in importance_df.columns:
+            predictor_options = importance_df["feature"].dropna().astype(str).tolist()
+        else:
+            predictor_options = [
+                c for c in df.select_dtypes(include="number").columns
+                if c not in {"year", story4_target}
+            ]
+
+        predictor_options = [p for p in predictor_options if p in df.columns]
+        predictor_options = sorted(set(predictor_options))
+        if not predictor_options:
+            st.info("No predictor columns available for Story 4 relationship view.")
+            return
+
+        predictor = st.selectbox(
+            "Predictor to Stress-Test",
+            options=predictor_options,
+            format_func=_pretty,
+            key="story4_predictor",
+        )
+
+        rel_df = df[["country", "year", predictor, story4_target]].dropna().copy()
+        if rel_df.empty:
+            st.info("No non-null rows available for this predictor/outcome pair.")
+            return
+
+        _story_section(
+            "Predictor-Outcome Relationship",
+            "This chart uses observed data and a fitted trend line to show directional association.",
             label="Evidence",
         )
-        _render_simulation(df, key_prefix="story6", show_header=False)
+        scatter = (
+            alt.Chart(rel_df)
+            .mark_circle(size=60, opacity=0.6, color=COLORS["secondary"])
+            .encode(
+                x=alt.X(f"{predictor}:Q", title=_pretty(predictor)),
+                y=alt.Y(f"{story4_target}:Q", title=_pretty(story4_target)),
+                tooltip=[
+                    "country:N",
+                    "year:Q",
+                    alt.Tooltip(f"{predictor}:Q", format=",.3f"),
+                    alt.Tooltip(f"{story4_target}:Q", format=",.3f"),
+                ],
+            )
+            .properties(height=360)
+        )
+        trend_line = scatter.transform_regression(predictor, story4_target).mark_line(
+            color=COLORS["danger"], strokeDash=[6, 4]
+        )
+        st.altair_chart((scatter + trend_line).interactive(), use_container_width=True)
+
+        _story_section(
+            "Sensitivity Preview (Directional)",
+            "Applies a simple linear sensitivity lens to estimate how predictor shifts may move the selected outcome.",
+            label="Takeaway",
+        )
+        shock_pct = st.slider(
+            "Predictor Change (%)",
+            min_value=-20,
+            max_value=20,
+            value=10,
+            step=1,
+            key="story4_shock",
+        )
+        x_vals = rel_df[predictor].to_numpy()
+        y_vals = rel_df[story4_target].to_numpy()
+        if len(rel_df) >= 3 and np.nanstd(x_vals) > 0:
+            slope, intercept = np.polyfit(x_vals, y_vals, 1)
+            baseline_x = float(np.nanmean(x_vals))
+            baseline_y = float(slope * baseline_x + intercept)
+            shocked_x = baseline_x * (1.0 + shock_pct / 100.0)
+            shocked_y = float(slope * shocked_x + intercept)
+            delta_y = shocked_y - baseline_y
+
+            m1, m2, m3 = st.columns(3)
+            m1.metric("Baseline Predicted Outcome", f"{baseline_y:,.3f}")
+            m2.metric("Shocked Predicted Outcome", f"{shocked_y:,.3f}")
+            m3.metric("Directional Change", f"{delta_y:+,.3f}")
+            st.caption(
+                "Sensitivity preview is a directional linear approximation from observed data, not a causal estimate."
+            )
+        else:
+            st.info("Insufficient variation to compute directional sensitivity for this predictor.")
 
 
 # ── Footer ──────────────────────────────────────────────────────────────────
@@ -2147,6 +2407,7 @@ def main() -> None:
     _render_header()
 
     tabs = st.tabs([
+        "Intro",
         "Executive Summary",
         "Story Mode",
         "Data Explorer",
@@ -2158,20 +2419,22 @@ def main() -> None:
     ])
 
     with tabs[0]:
-        _render_executive_summary(df)
+        _render_intro(df)
     with tabs[1]:
-        _render_story_mode(df)
+        _render_executive_summary(df)
     with tabs[2]:
-        _render_data_explorer(df)
+        _render_story_mode(df)
     with tabs[3]:
-        _render_descriptive_analytics(df)
+        _render_data_explorer(df)
     with tabs[4]:
-        _render_econometric_results()
+        _render_descriptive_analytics(df)
     with tabs[5]:
-        _render_predictive_analytics()
+        _render_econometric_results()
     with tabs[6]:
-        _render_policy_recommendations()
+        _render_predictive_analytics(df)
     with tabs[7]:
+        _render_policy_recommendations()
+    with tabs[8]:
         _render_simulation(df)
 
     _render_footer()
