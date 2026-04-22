@@ -1,0 +1,61 @@
+country,year,dimension,dimension_score,recommendation_tier,composite_score,dimension_rank
+SAU,2023,demographics,95.53,Tier 1 - Sustain & Lead,79.24,1.0
+AUS,2023,demographics,60.72,Tier 1 - Sustain & Lead,71.24,2.0
+MEX,2023,demographics,57.24,Tier 2 - Optimise,55.4,3.0
+CAN,2023,demographics,57.08,Tier 1 - Sustain & Lead,66.72,4.0
+IND,2023,demographics,55.36,Tier 2 - Optimise,53.46,5.0
+BRA,2023,demographics,49.35,Tier 2 - Optimise,56.1,6.0
+ZAF,2023,demographics,46.47,Tier 2 - Optimise,53.11,7.0
+NGA,2023,demographics,43.61,Tier 3 - Transition,37.68,8.0
+GBR,2023,demographics,42.26,Tier 1 - Sustain & Lead,66.24,9.0
+USA,2023,demographics,41.38,Tier 2 - Optimise,61.0,10.0
+CHN,2023,demographics,41.08,Tier 2 - Optimise,48.81,11.0
+FRA,2023,demographics,38.11,Tier 1 - Sustain & Lead,67.69,12.0
+DEU,2023,demographics,22.49,Tier 2 - Optimise,62.92,13.0
+RUS,2023,demographics,21.26,Tier 2 - Optimise,54.83,14.0
+JPN,2023,demographics,15.17,Tier 2 - Optimise,61.19,15.0
+DEU,2023,economic,100.0,Tier 2 - Optimise,62.92,1.0
+USA,2023,economic,94.86,Tier 2 - Optimise,61.0,2.0
+AUS,2023,economic,85.67,Tier 1 - Sustain & Lead,71.24,3.0
+FRA,2023,economic,84.2,Tier 1 - Sustain & Lead,67.69,4.0
+SAU,2023,economic,76.39,Tier 1 - Sustain & Lead,79.24,5.0
+CAN,2023,economic,71.0,Tier 1 - Sustain & Lead,66.72,6.0
+JPN,2023,economic,70.19,Tier 2 - Optimise,61.19,7.0
+GBR,2023,economic,55.94,Tier 1 - Sustain & Lead,66.24,8.0
+MEX,2023,economic,48.44,Tier 2 - Optimise,55.4,9.0
+IND,2023,economic,47.41,Tier 2 - Optimise,53.46,10.0
+RUS,2023,economic,46.35,Tier 2 - Optimise,54.83,11.0
+BRA,2023,economic,39.71,Tier 2 - Optimise,56.1,12.0
+ZAF,2023,economic,39.5,Tier 2 - Optimise,53.11,13.0
+CHN,2023,economic,34.41,Tier 2 - Optimise,48.81,14.0
+NGA,2023,economic,34.4,Tier 3 - Transition,37.68,15.0
+JPN,2023,health,98.84,Tier 2 - Optimise,61.19,1.0
+AUS,2023,health,97.51,Tier 1 - Sustain & Lead,71.24,2.0
+FRA,2023,health,97.02,Tier 1 - Sustain & Lead,67.69,3.0
+CAN,2023,health,94.99,Tier 1 - Sustain & Lead,66.72,4.0
+GBR,2023,health,93.95,Tier 1 - Sustain & Lead,66.24,5.0
+DEU,2023,health,93.43,Tier 2 - Optimise,62.92,6.0
+SAU,2023,health,90.04,Tier 1 - Sustain & Lead,79.24,7.0
+CHN,2023,health,89.71,Tier 2 - Optimise,48.81,8.0
+USA,2023,health,89.32,Tier 2 - Optimise,61.0,9.0
+BRA,2023,health,83.3,Tier 2 - Optimise,56.1,10.0
+MEX,2023,health,82.42,Tier 2 - Optimise,55.4,11.0
+RUS,2023,health,80.0,Tier 2 - Optimise,54.83,12.0
+IND,2023,health,71.09,Tier 2 - Optimise,53.46,13.0
+ZAF,2023,health,64.77,Tier 2 - Optimise,53.11,14.0
+NGA,2023,health,25.3,Tier 3 - Transition,37.68,15.0
+GBR,2023,inequality,72.8,Tier 1 - Sustain & Lead,66.24,1.0
+RUS,2023,inequality,71.73,Tier 2 - Optimise,54.83,2.0
+ZAF,2023,inequality,61.69,Tier 2 - Optimise,53.11,3.0
+JPN,2023,inequality,60.56,Tier 2 - Optimise,61.19,4.0
+SAU,2023,inequality,54.99,Tier 1 - Sustain & Lead,79.24,5.0
+BRA,2023,inequality,52.05,Tier 2 - Optimise,56.1,6.0
+FRA,2023,inequality,51.44,Tier 1 - Sustain & Lead,67.69,7.0
+NGA,2023,inequality,47.44,Tier 3 - Transition,37.68,8.0
+CAN,2023,inequality,43.8,Tier 1 - Sustain & Lead,66.72,9.0
+AUS,2023,inequality,41.07,Tier 1 - Sustain & Lead,71.24,10.0
+IND,2023,inequality,39.96,Tier 2 - Optimise,53.46,11.0
+DEU,2023,inequality,35.76,Tier 2 - Optimise,62.92,12.0
+MEX,2023,inequality,33.5,Tier 2 - Optimise,55.4,13.0
+CHN,2023,inequality,30.03,Tier 2 - Optimise,48.81,14.0
+USA,2023,inequality,18.44,Tier 2 - Optimise,61.0,15.0

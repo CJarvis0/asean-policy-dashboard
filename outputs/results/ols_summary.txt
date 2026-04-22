@@ -1,0 +1,35 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             gini_index   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                 -0.006
+Method:                 Least Squares   F-statistic:                    0.7811
+Date:                Mon, 20 Apr 2026   Prob (F-statistic):              0.634
+Time:                        13:04:12   Log-Likelihood:                 233.06
+No. Observations:                 360   AIC:                            -446.1
+Df Residuals:                     350   BIC:                            -407.3
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                     0.3788      0.104      3.638      0.000       0.174       0.584
+top_10percent_income_share_percent        0.0404      0.059      0.679      0.498      -0.077       0.157
+bottom_10percent_income_share_percent    -0.0379      0.596     -0.064      0.949      -1.210       1.134
+life_expectancy                          -0.0002      0.001     -0.124      0.901      -0.003       0.002
+pop_growth                               -0.0012      0.007     -0.163      0.871      -0.015       0.013
+gdp_per_capita                         5.149e-07    5.2e-07      0.991      0.322   -5.07e-07    1.54e-06
+trade_percent_gdp                         0.0755      0.046      1.632      0.104      -0.015       0.166
+income_group_low_income                  -0.0118      0.018     -0.653      0.514      -0.047       0.024
+income_group_lower_middle_income         -0.0041      0.032     -0.128      0.898      -0.067       0.059
+income_group_upper_middle_income         -0.0249      0.028     -0.876      0.382      -0.081       0.031
+==============================================================================
+Omnibus:                      105.203   Durbin-Watson:                   2.085
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               17.946
+Skew:                          -0.074   Prob(JB):                     0.000127
+Kurtosis:                       1.916   Cond. No.                     2.79e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.79e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

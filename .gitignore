@@ -20,6 +20,7 @@ env/
 
 # Outputs
 outputs/
+!outputs/
 !outputs/results/
 !outputs/results/*.csv
 !outputs/results/*.txt

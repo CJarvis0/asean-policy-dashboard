@@ -1,0 +1,76 @@
+country,year,income_group,dtm_stage,etm_stage,recommendation_tier,scenario,projected_score,uplift_vs_baseline
+AUS,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Baseline (No Change),68.57,0.0
+AUS,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Scenario A - Health Push,69.86,1.3
+AUS,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Scenario B - Inequality Reduction,77.25,8.68
+AUS,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Scenario C - Economic Acceleration,70.2,1.64
+AUS,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Scenario D - Comprehensive Reform,72.66,4.09
+BRA,2023,Low Income,4,5,Tier 2 - Optimise,Baseline (No Change),40.48,0.0
+BRA,2023,Low Income,4,5,Tier 2 - Optimise,Scenario A - Health Push,46.35,5.87
+BRA,2023,Low Income,4,5,Tier 2 - Optimise,Scenario B - Inequality Reduction,61.37,20.9
+BRA,2023,Low Income,4,5,Tier 2 - Optimise,Scenario C - Economic Acceleration,42.11,1.64
+BRA,2023,Low Income,4,5,Tier 2 - Optimise,Scenario D - Comprehensive Reform,47.78,7.3
+CAN,2023,High Income,4,5,Tier 1 - Sustain & Lead,Baseline (No Change),60.32,0.0
+CAN,2023,High Income,4,5,Tier 1 - Sustain & Lead,Scenario A - Health Push,62.92,2.6
+CAN,2023,High Income,4,5,Tier 1 - Sustain & Lead,Scenario B - Inequality Reduction,74.88,14.56
+CAN,2023,High Income,4,5,Tier 1 - Sustain & Lead,Scenario C - Economic Acceleration,61.95,1.64
+CAN,2023,High Income,4,5,Tier 1 - Sustain & Lead,Scenario D - Comprehensive Reform,65.71,5.4
+CHN,2023,Upper Middle Income,4,5,Tier 2 - Optimise,Baseline (No Change),26.29,0.0
+CHN,2023,Upper Middle Income,4,5,Tier 2 - Optimise,Scenario A - Health Push,30.34,4.04
+CHN,2023,Upper Middle Income,4,5,Tier 2 - Optimise,Scenario B - Inequality Reduction,47.19,20.9
+CHN,2023,Upper Middle Income,4,5,Tier 2 - Optimise,Scenario C - Economic Acceleration,27.93,1.64
+CHN,2023,Upper Middle Income,4,5,Tier 2 - Optimise,Scenario D - Comprehensive Reform,31.77,5.48
+DEU,2023,High Income,3,5,Tier 2 - Optimise,Baseline (No Change),56.37,0.0
+DEU,2023,High Income,3,5,Tier 2 - Optimise,Scenario A - Health Push,59.34,2.97
+DEU,2023,High Income,3,5,Tier 2 - Optimise,Scenario B - Inequality Reduction,61.49,5.12
+DEU,2023,High Income,3,5,Tier 2 - Optimise,Scenario C - Economic Acceleration,58.01,1.64
+DEU,2023,High Income,3,5,Tier 2 - Optimise,Scenario D - Comprehensive Reform,61.46,5.09
+FRA,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Baseline (No Change),65.28,0.0
+FRA,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Scenario A - Health Push,66.76,1.49
+FRA,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Scenario B - Inequality Reduction,82.52,17.25
+FRA,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Scenario C - Economic Acceleration,66.91,1.64
+FRA,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Scenario D - Comprehensive Reform,69.56,4.28
+GBR,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Baseline (No Change),63.46,0.0
+GBR,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Scenario A - Health Push,66.21,2.75
+GBR,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Scenario B - Inequality Reduction,72.5,9.04
+GBR,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Scenario C - Economic Acceleration,65.1,1.64
+GBR,2023,Upper Middle Income,4,5,Tier 1 - Sustain & Lead,Scenario D - Comprehensive Reform,68.79,5.33
+IND,2023,Upper Middle Income,3,5,Tier 2 - Optimise,Baseline (No Change),32.54,0.0
+IND,2023,Upper Middle Income,3,5,Tier 2 - Optimise,Scenario A - Health Push,40.53,7.99
+IND,2023,Upper Middle Income,3,5,Tier 2 - Optimise,Scenario B - Inequality Reduction,41.45,8.91
+IND,2023,Upper Middle Income,3,5,Tier 2 - Optimise,Scenario C - Economic Acceleration,34.17,1.64
+IND,2023,Upper Middle Income,3,5,Tier 2 - Optimise,Scenario D - Comprehensive Reform,40.82,8.28
+JPN,2023,High Income,3,5,Tier 2 - Optimise,Baseline (No Change),56.49,0.0
+JPN,2023,High Income,3,5,Tier 2 - Optimise,Scenario A - Health Push,56.83,0.35
+JPN,2023,High Income,3,5,Tier 2 - Optimise,Scenario B - Inequality Reduction,64.26,7.78
+JPN,2023,High Income,3,5,Tier 2 - Optimise,Scenario C - Economic Acceleration,58.12,1.64
+JPN,2023,High Income,3,5,Tier 2 - Optimise,Scenario D - Comprehensive Reform,59.63,3.15
+MEX,2023,Upper Middle Income,3,5,Tier 2 - Optimise,Baseline (No Change),36.58,0.0
+MEX,2023,Upper Middle Income,3,5,Tier 2 - Optimise,Scenario A - Health Push,42.07,5.49
+MEX,2023,Upper Middle Income,3,5,Tier 2 - Optimise,Scenario B - Inequality Reduction,57.48,20.9
+MEX,2023,Upper Middle Income,3,5,Tier 2 - Optimise,Scenario C - Economic Acceleration,38.22,1.64
+MEX,2023,Upper Middle Income,3,5,Tier 2 - Optimise,Scenario D - Comprehensive Reform,43.5,6.92
+NGA,2023,Upper Middle Income,2,1,Tier 3 - Transition,Baseline (No Change),0.0,0.0
+NGA,2023,Upper Middle Income,2,1,Tier 3 - Transition,Scenario A - Health Push,7.99,7.99
+NGA,2023,Upper Middle Income,2,1,Tier 3 - Transition,Scenario B - Inequality Reduction,14.9,14.9
+NGA,2023,Upper Middle Income,2,1,Tier 3 - Transition,Scenario C - Economic Acceleration,1.64,1.64
+NGA,2023,Upper Middle Income,2,1,Tier 3 - Transition,Scenario D - Comprehensive Reform,8.28,8.28
+RUS,2023,Lower Middle Income,3,5,Tier 2 - Optimise,Baseline (No Change),42.72,0.0
+RUS,2023,Lower Middle Income,3,5,Tier 2 - Optimise,Scenario A - Health Push,46.52,3.8
+RUS,2023,Lower Middle Income,3,5,Tier 2 - Optimise,Scenario B - Inequality Reduction,57.0,14.29
+RUS,2023,Lower Middle Income,3,5,Tier 2 - Optimise,Scenario C - Economic Acceleration,44.35,1.64
+RUS,2023,Lower Middle Income,3,5,Tier 2 - Optimise,Scenario D - Comprehensive Reform,47.99,5.28
+SAU,2023,Lower Middle Income,3,5,Tier 1 - Sustain & Lead,Baseline (No Change),80.16,0.0
+SAU,2023,Lower Middle Income,3,5,Tier 1 - Sustain & Lead,Scenario A - Health Push,84.22,4.06
+SAU,2023,Lower Middle Income,3,5,Tier 1 - Sustain & Lead,Scenario B - Inequality Reduction,100.0,19.84
+SAU,2023,Lower Middle Income,3,5,Tier 1 - Sustain & Lead,Scenario C - Economic Acceleration,81.79,1.64
+SAU,2023,Lower Middle Income,3,5,Tier 1 - Sustain & Lead,Scenario D - Comprehensive Reform,85.69,5.53
+USA,2023,Lower Middle Income,4,5,Tier 2 - Optimise,Baseline (No Change),48.62,0.0
+USA,2023,Lower Middle Income,4,5,Tier 2 - Optimise,Scenario A - Health Push,52.89,4.27
+USA,2023,Lower Middle Income,4,5,Tier 2 - Optimise,Scenario B - Inequality Reduction,69.52,20.9
+USA,2023,Lower Middle Income,4,5,Tier 2 - Optimise,Scenario C - Economic Acceleration,50.25,1.63
+USA,2023,Lower Middle Income,4,5,Tier 2 - Optimise,Scenario D - Comprehensive Reform,54.32,5.7
+ZAF,2023,Lower Middle Income,3,5,Tier 2 - Optimise,Baseline (No Change),34.12,0.0
+ZAF,2023,Lower Middle Income,3,5,Tier 2 - Optimise,Scenario A - Health Push,42.11,7.99
+ZAF,2023,Lower Middle Income,3,5,Tier 2 - Optimise,Scenario B - Inequality Reduction,40.0,5.87
+ZAF,2023,Lower Middle Income,3,5,Tier 2 - Optimise,Scenario C - Economic Acceleration,35.76,1.64
+ZAF,2023,Lower Middle Income,3,5,Tier 2 - Optimise,Scenario D - Comprehensive Reform,42.41,8.28

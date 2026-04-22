@@ -1,0 +1,16 @@
+country,year,baseline_score,best_scenario,best_projected_score,best_uplift_vs_baseline,income_group,dtm_stage,etm_stage,recommendation_tier
+BRA,2023,40.48,Scenario B - Inequality Reduction,61.37,20.9,Low Income,4,5,Tier 2 - Optimise
+CHN,2023,26.29,Scenario B - Inequality Reduction,47.19,20.9,Upper Middle Income,4,5,Tier 2 - Optimise
+MEX,2023,36.58,Scenario B - Inequality Reduction,57.48,20.9,Upper Middle Income,3,5,Tier 2 - Optimise
+USA,2023,48.62,Scenario B - Inequality Reduction,69.52,20.9,Lower Middle Income,4,5,Tier 2 - Optimise
+SAU,2023,80.16,Scenario B - Inequality Reduction,100.0,19.84,Lower Middle Income,3,5,Tier 1 - Sustain & Lead
+FRA,2023,65.28,Scenario B - Inequality Reduction,82.52,17.25,Upper Middle Income,4,5,Tier 1 - Sustain & Lead
+NGA,2023,0.0,Scenario B - Inequality Reduction,14.9,14.9,Upper Middle Income,2,1,Tier 3 - Transition
+CAN,2023,60.32,Scenario B - Inequality Reduction,74.88,14.56,High Income,4,5,Tier 1 - Sustain & Lead
+RUS,2023,42.72,Scenario B - Inequality Reduction,57.0,14.29,Lower Middle Income,3,5,Tier 2 - Optimise
+GBR,2023,63.46,Scenario B - Inequality Reduction,72.5,9.04,Upper Middle Income,4,5,Tier 1 - Sustain & Lead
+IND,2023,32.54,Scenario B - Inequality Reduction,41.45,8.91,Upper Middle Income,3,5,Tier 2 - Optimise
+AUS,2023,68.57,Scenario B - Inequality Reduction,77.25,8.68,Upper Middle Income,4,5,Tier 1 - Sustain & Lead
+ZAF,2023,34.12,Scenario D - Comprehensive Reform,42.41,8.28,Lower Middle Income,3,5,Tier 2 - Optimise
+JPN,2023,56.49,Scenario B - Inequality Reduction,64.26,7.78,High Income,3,5,Tier 2 - Optimise
+DEU,2023,56.37,Scenario B - Inequality Reduction,61.49,5.12,High Income,3,5,Tier 2 - Optimise
