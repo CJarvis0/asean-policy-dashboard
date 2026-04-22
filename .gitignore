@@ -14,6 +14,12 @@ env/
 
 # Data (optional)
 *.csv
+!data/processed/panel/Final_Panel_Dataset_with_DTM_ETM.csv
+!data/processed/modeling/panel_cleaned.csv
+!data/processed/modeling/correlation_matrix.csv
 
 # Outputs
 outputs/
+!outputs/results/
+!outputs/results/*.csv
+!outputs/results/*.txt
