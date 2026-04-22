@@ -3,8 +3,8 @@
 Dep. Variable:             gini_index   R-squared:                       0.020
 Model:                            OLS   Adj. R-squared:                 -0.006
 Method:                 Least Squares   F-statistic:                    0.7811
-Date:                Mon, 20 Apr 2026   Prob (F-statistic):              0.634
-Time:                        13:04:12   Log-Likelihood:                 233.06
+Date:                Wed, 22 Apr 2026   Prob (F-statistic):              0.634
+Time:                        17:26:10   Log-Likelihood:                 233.06
 No. Observations:                 360   AIC:                            -446.1
 Df Residuals:                     350   BIC:                            -407.3
 Df Model:                           9                                         

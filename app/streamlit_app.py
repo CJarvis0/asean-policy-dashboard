@@ -1767,8 +1767,7 @@ def _render_policy_recommendations(show_header: bool = True, key_prefix: str = "
     _section_intro(
         "Story 6 ranks countries using weighted scores across inequality, health, demographics, "
         "and economics for the latest-year snapshot. Policy actions are stage-template "
-        "recommendations based on DTM/ETM pairings, with a linked What-If simulation layer for "
-        "post-policy impact screening."
+        "recommendations based on DTM/ETM pairings."
     )
 
     ranked_df = load_optional_csv(RECOMMENDATION_RANKED_PATH)
@@ -1883,12 +1882,6 @@ def _render_policy_recommendations(show_header: bool = True, key_prefix: str = "
             st.caption(
                 "Dimension evidence reflects normalized weighted component scores, used for transparent ranking support."
             )
-
-    st.markdown("#### Policy Impact What-If (Story 6 Follow-Up)")
-    st.caption(
-        "Use this simulation view to estimate potential uplift after selecting policy pathways."
-    )
-    _render_simulation(ranked_df, key_prefix=f"{key_prefix}_whatif", show_header=False)
 
     st.markdown("#### Ranked Table")
     st.dataframe(ranked_df, use_container_width=True, hide_index=True)

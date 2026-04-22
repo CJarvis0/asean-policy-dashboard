@@ -3,8 +3,8 @@
 Dep. Variable:             gini_index   R-squared:                        0.0326
 Estimator:                   PanelOLS   R-squared (Between):             -7.8012
 No. Observations:                 360   R-squared (Within):              -0.1694
-Date:                Mon, Apr 20 2026   R-squared (Overall):             -7.1933
-Time:                        13:04:12   Log-likelihood                    253.48
+Date:                Wed, Apr 22 2026   R-squared (Overall):             -7.1933
+Time:                        17:26:11   Log-likelihood                    253.48
 Cov. Estimator:                Robust                                           
                                         F-statistic:                      1.7736
 Entities:                          15   P-value                           0.1039
