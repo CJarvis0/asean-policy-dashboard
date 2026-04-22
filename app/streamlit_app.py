@@ -711,10 +711,12 @@ def _render_executive_summary(df: pd.DataFrame) -> None:
         strong = summary_df.sort_values("R\u00b2", ascending=False).iloc[0]
         weak = summary_df.sort_values("R\u00b2", ascending=True).iloc[0]
         tone = "positive" if float(weak["R\u00b2"]) >= 0.4 else "risk"
+        strong_r2 = strong["R\u00b2"]
+        weak_r2 = weak["R\u00b2"]
         _insight_callout(
             "Performance Spread",
-            f"Strongest target fit: {strong['Target']} (R\u00b2 {strong['R\u00b2']:.3f}). "
-            f"Weakest target fit: {weak['Target']} (R\u00b2 {weak['R\u00b2']:.3f}).",
+            f"Strongest target fit: {strong['Target']} (R² {strong_r2:.3f}). "
+            f"Weakest target fit: {weak['Target']} (R² {weak_r2:.3f}).",
             tone=tone,
         )
     else:
