@@ -9,6 +9,7 @@ explanations accessible to both technical and non-technical audiences.
 from __future__ import annotations
 
 import os
+import re
 import sys
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -635,6 +636,173 @@ def _glossary_expander(terms: List[str]) -> None:
             st.markdown(f"**{term}:** {defn}")
 
 
+@st.cache_data
+def _parse_ols_coefficients(path: Path) -> pd.DataFrame:
+    """Extract coefficient rows from a statsmodels OLS summary text file."""
+    if not path.exists():
+        return pd.DataFrame(columns=["feature", "ols_coef"])
+
+    lines = path.read_text(encoding="utf-8").splitlines()
+    rows: List[Dict[str, object]] = []
+    in_table = False
+    numeric_re = re.compile(r"^-?\d+(?:\.\d+)?(?:e[-+]?\d+)?$", flags=re.IGNORECASE)
+
+    for line in lines:
+        if "coef" in line and "std err" in line and "P>|t|" in line:
+            in_table = True
+            continue
+        if in_table and line.strip().startswith("==="):
+            break
+        if not in_table:
+            continue
+
+        parts = line.split()
+        if len(parts) < 2:
+            continue
+        feature, coef_raw = parts[0], parts[1]
+        if not numeric_re.match(coef_raw):
+            continue
+        rows.append({"feature": feature, "ols_coef": float(coef_raw)})
+
+    if not rows:
+        return pd.DataFrame(columns=["feature", "ols_coef"])
+    return pd.DataFrame(rows, columns=["feature", "ols_coef"])
+
+
+@st.cache_data
+def _parse_panel_ols_coefficients(path: Path) -> pd.DataFrame:
+    """Extract coefficient rows from a linearmodels PanelOLS summary text file."""
+    if not path.exists():
+        return pd.DataFrame(columns=["feature", "panel_ols_coef"])
+
+    lines = path.read_text(encoding="utf-8").splitlines()
+    rows: List[Dict[str, object]] = []
+    in_section = False
+    in_rows = False
+    numeric_re = re.compile(r"^-?\d+(?:\.\d+)?(?:e[-+]?\d+)?$", flags=re.IGNORECASE)
+
+    for line in lines:
+        if "Parameter Estimates" in line:
+            in_section = True
+            continue
+        if not in_section:
+            continue
+
+        stripped = line.strip()
+        if not stripped:
+            continue
+        if "Parameter" in line and "Std. Err." in line:
+            in_rows = True
+            continue
+        if not in_rows:
+            continue
+        if stripped.startswith("="):
+            break
+        if set(stripped) == {"-"}:
+            continue
+
+        parts = line.split()
+        if len(parts) < 2:
+            continue
+        feature, coef_raw = parts[0], parts[1]
+        if not numeric_re.match(coef_raw):
+            continue
+        rows.append({"feature": feature, "panel_ols_coef": float(coef_raw)})
+
+    if not rows:
+        return pd.DataFrame(columns=["feature", "panel_ols_coef"])
+    return pd.DataFrame(rows, columns=["feature", "panel_ols_coef"])
+
+
+def _render_econometric_coefficient_comparison(ols_path: Path, fe_path: Path) -> None:
+    """Render a compact OLS vs Panel OLS coefficient comparison view."""
+    ols_coef_df = _parse_ols_coefficients(ols_path)
+    panel_coef_df = _parse_panel_ols_coefficients(fe_path)
+    if "feature" not in ols_coef_df.columns:
+        ols_coef_df = pd.DataFrame(columns=["feature", "ols_coef"])
+    if "feature" not in panel_coef_df.columns:
+        panel_coef_df = pd.DataFrame(columns=["feature", "panel_ols_coef"])
+
+    if ols_coef_df.empty and panel_coef_df.empty:
+        st.info("Coefficient comparison is unavailable because no coefficient rows were parsed from the model summaries.")
+        return
+
+    coeff_df = pd.merge(ols_coef_df, panel_coef_df, on="feature", how="outer")
+    coeff_df = coeff_df[coeff_df["feature"].str.lower() != "const"].copy()
+    if coeff_df.empty:
+        st.info("Coefficient comparison is unavailable after excluding intercept (`const`).")
+        return
+    coeff_df["max_abs_coef"] = coeff_df[["ols_coef", "panel_ols_coef"]].abs().max(axis=1)
+    coeff_df = coeff_df.sort_values("max_abs_coef", ascending=False).reset_index(drop=True)
+    coeff_df["feature_label"] = coeff_df["feature"].map(_pretty)
+    coeff_df["difference_panel_minus_ols"] = coeff_df["panel_ols_coef"] - coeff_df["ols_coef"]
+
+    st.markdown("#### Coefficient Comparison (OLS vs Panel OLS)")
+    st.caption(
+        "Use this side-by-side view during the presentation to quickly compare sign and magnitude "
+        "changes between pooled OLS and fixed-effects Panel OLS."
+    )
+
+    chart_df = (
+        coeff_df[["feature", "feature_label", "ols_coef", "panel_ols_coef"]]
+        .melt(
+            id_vars=["feature", "feature_label"],
+            value_vars=["ols_coef", "panel_ols_coef"],
+            var_name="model",
+            value_name="coefficient",
+        )
+        .dropna(subset=["coefficient"])
+    )
+    chart_df["model"] = chart_df["model"].replace(
+        {"ols_coef": "OLS", "panel_ols_coef": "Panel OLS (Fixed Effects)"}
+    )
+    feature_sort = coeff_df["feature_label"].tolist()
+
+    chart_height = max(260, len(feature_sort) * 26)
+    c_left, c_right = st.columns(2)
+    model_specs = [
+        ("OLS", "OLS Coefficients"),
+        ("Panel OLS (Fixed Effects)", "Panel OLS Coefficients"),
+    ]
+    for (model_name, model_title), container in zip(model_specs, [c_left, c_right]):
+        model_df = chart_df[chart_df["model"] == model_name]
+        if model_df.empty:
+            with container:
+                st.info(f"{model_title} unavailable.")
+            continue
+
+        with container:
+            bars = (
+                alt.Chart(model_df)
+                .mark_bar(color=COLORS["secondary"] if model_name == "OLS" else COLORS["accent"])
+                .encode(
+                    x=alt.X("coefficient:Q", title="Coefficient Value"),
+                    y=alt.Y("feature_label:N", sort=feature_sort, title=""),
+                    tooltip=[
+                        alt.Tooltip("feature_label:N", title="Feature"),
+                        alt.Tooltip("coefficient:Q", title="Coefficient", format=".6f"),
+                    ],
+                )
+                .properties(title=model_title, height=chart_height)
+            )
+            zero_line = alt.Chart(pd.DataFrame({"x": [0]})).mark_rule(
+                color=COLORS["muted"], strokeDash=[4, 4]
+            ).encode(x="x:Q")
+            st.altair_chart(bars + zero_line, width="stretch")
+
+    table_df = coeff_df[
+        ["feature_label", "ols_coef", "panel_ols_coef", "difference_panel_minus_ols"]
+    ].rename(
+        columns={
+            "feature_label": "Feature",
+            "ols_coef": "OLS Coef",
+            "panel_ols_coef": "Panel OLS Coef",
+            "difference_panel_minus_ols": "Panel - OLS",
+        }
+    )
+    st.dataframe(table_df, width="stretch", hide_index=True)
+
+
 def _render_executive_summary(df: pd.DataFrame) -> None:
     st.header("Executive Summary")
     _section_intro(
@@ -683,7 +851,7 @@ def _render_executive_summary(df: pd.DataFrame) -> None:
             }
         )
     if trend_rows:
-        st.dataframe(pd.DataFrame(trend_rows), use_container_width=True, hide_index=True)
+        st.dataframe(pd.DataFrame(trend_rows), width="stretch", hide_index=True)
     else:
         st.info("Insufficient data to compute descriptive trend highlights.")
 
@@ -706,7 +874,7 @@ def _render_executive_summary(df: pd.DataFrame) -> None:
 
     if summary_rows:
         summary_df = pd.DataFrame(summary_rows).sort_values("Target")
-        st.dataframe(summary_df, use_container_width=True, hide_index=True)
+        st.dataframe(summary_df, width="stretch", hide_index=True)
 
         strong = summary_df.sort_values("R\u00b2", ascending=False).iloc[0]
         weak = summary_df.sort_values("R\u00b2", ascending=True).iloc[0]
@@ -897,9 +1065,9 @@ def _render_data_explorer(df: pd.DataFrame) -> None:
         default=["country", "year", "gini_index", "life_expectancy", "gdp_per_capita"],
     )
     if display_columns:
-        st.dataframe(filtered[display_columns], use_container_width=True, hide_index=True)
+        st.dataframe(filtered[display_columns], width="stretch", hide_index=True)
     else:
-        st.dataframe(filtered, use_container_width=True, hide_index=True)
+        st.dataframe(filtered, width="stretch", hide_index=True)
 
     csv = filtered.to_csv(index=False).encode("utf-8")
     st.download_button(
@@ -931,7 +1099,7 @@ def _render_data_explorer(df: pd.DataFrame) -> None:
             .interactive()
             .properties(height=380)
         )
-        st.altair_chart(line, use_container_width=True)
+        st.altair_chart(line, width="stretch")
 
 
 # ── Tab: Descriptive Analytics ──────────────────────────────────────────────
@@ -1004,7 +1172,7 @@ def _render_descriptive_analytics(df: pd.DataFrame) -> None:
             )
             .properties(height=320)
         )
-        st.altair_chart(top_chart, use_container_width=True)
+        st.altair_chart(top_chart, width="stretch")
     with c2:
         st.markdown(f"**Bottom 10 \u2014 {_pretty(metric)}**")
         bottom_df = comp_df.tail(10).copy()
@@ -1019,7 +1187,7 @@ def _render_descriptive_analytics(df: pd.DataFrame) -> None:
             )
             .properties(height=320)
         )
-        st.altair_chart(bottom_chart, use_container_width=True)
+        st.altair_chart(bottom_chart, width="stretch")
 
     # ASEAN group trend
     st.markdown("#### ASEAN-Group Trend (Mean Across Countries)")
@@ -1055,7 +1223,7 @@ def _render_descriptive_analytics(df: pd.DataFrame) -> None:
         )
         .properties(height=320)
     )
-    st.altair_chart(trend_chart, use_container_width=True)
+    st.altair_chart(trend_chart, width="stretch")
 
     # Correlation heatmap (Altair — interactive)
     st.markdown("#### Correlation Matrix")
@@ -1102,7 +1270,7 @@ def _render_descriptive_analytics(df: pd.DataFrame) -> None:
             text=alt.Text("Correlation:Q", format=".2f"),
         )
     )
-    st.altair_chart(heatmap + text, use_container_width=True)
+    st.altair_chart(heatmap + text, width="stretch")
 
 
 # ── Tab: Predictive Analytics ───────────────────────────────────────────────
@@ -1171,7 +1339,7 @@ def _render_predictive_analytics(df: pd.DataFrame) -> None:
 
     # Full results table
     with st.expander("Full Model Comparison Table", expanded=False):
-        st.dataframe(results_df, use_container_width=True, hide_index=True)
+        st.dataframe(results_df, width="stretch", hide_index=True)
 
     # Interactive bar chart
     st.markdown("#### Model Comparison")
@@ -1203,7 +1371,7 @@ def _render_predictive_analytics(df: pd.DataFrame) -> None:
         )
         .properties(height=350)
     )
-    st.altair_chart(metric_chart, use_container_width=True)
+    st.altair_chart(metric_chart, width="stretch")
 
     # Actual vs. Predicted scatter
     pred_df = prediction_tables.get(target)
@@ -1258,7 +1426,7 @@ def _render_predictive_analytics(df: pd.DataFrame) -> None:
             diagonal = alt.Chart(line_df).mark_line(color="black", strokeDash=[6, 4], opacity=0.6).encode(
                 x="actual:Q", y="predicted:Q",
             )
-            st.altair_chart((scatter + diagonal).interactive().properties(height=420), use_container_width=True)
+            st.altair_chart((scatter + diagonal).interactive().properties(height=420), width="stretch")
 
             # Residual histogram
             st.markdown("#### Residual Distribution")
@@ -1274,7 +1442,7 @@ def _render_predictive_analytics(df: pd.DataFrame) -> None:
                 )
                 .properties(height=280)
             )
-            st.altair_chart(residual_chart, use_container_width=True)
+            st.altair_chart(residual_chart, width="stretch")
 
             # Residual-based uncertainty view
             st.markdown("#### Uncertainty View (Residual-Based)")
@@ -1343,7 +1511,7 @@ def _render_predictive_analytics(df: pd.DataFrame) -> None:
                         tooltip=[alt.Tooltip("actual:Q", format=",.3f", title="Actual Mean")],
                     )
                 )
-                st.altair_chart((band + pred_line + act_line).interactive().properties(height=320), use_container_width=True)
+                st.altair_chart((band + pred_line + act_line).interactive().properties(height=320), width="stretch")
             else:
                 st.info("Insufficient residual data to compute uncertainty diagnostics for the current filter.")
 
@@ -1365,7 +1533,7 @@ def _render_predictive_analytics(df: pd.DataFrame) -> None:
             if country_rows:
                 country_perf_df = pd.DataFrame(country_rows).sort_values("rmse")
                 with st.expander("Detailed Country Error Table", expanded=False):
-                    st.dataframe(country_perf_df, use_container_width=True, hide_index=True)
+                    st.dataframe(country_perf_df, width="stretch", hide_index=True)
                 perf_chart = (
                     alt.Chart(country_perf_df)
                     .mark_bar()
@@ -1383,7 +1551,7 @@ def _render_predictive_analytics(df: pd.DataFrame) -> None:
                     )
                     .properties(height=max(250, len(country_perf_df) * 28))
                 )
-                st.altair_chart(perf_chart, use_container_width=True)
+                st.altair_chart(perf_chart, width="stretch")
     else:
         st.info(
             "Prediction point data not available. Run "
@@ -1431,7 +1599,7 @@ def _render_predictive_analytics(df: pd.DataFrame) -> None:
             )
             .properties(height=max(250, top_n * 28))
         )
-        st.altair_chart(imp_chart, use_container_width=True)
+        st.altair_chart(imp_chart, width="stretch")
     else:
         st.info("Feature importance table not found for the selected target.")
 
@@ -1488,7 +1656,7 @@ def _render_predictive_analytics(df: pd.DataFrame) -> None:
                 trend_line = scatter.transform_regression(predictor, target).mark_line(
                     color=COLORS["danger"], strokeDash=[6, 4]
                 )
-                st.altair_chart((scatter + trend_line).interactive(), use_container_width=True)
+                st.altair_chart((scatter + trend_line).interactive(), width="stretch")
             else:
                 st.info("No rows available for the selected predictor/target pairing.")
 
@@ -1507,7 +1675,7 @@ def _render_predictive_analytics(df: pd.DataFrame) -> None:
             )
             .properties(height=max(250, len(country_avg_df) * 24))
         )
-        st.altair_chart(country_chart, use_container_width=True)
+        st.altair_chart(country_chart, width="stretch")
 
     # Best model per target summary
     summary_rows = []
@@ -1519,7 +1687,7 @@ def _render_predictive_analytics(df: pd.DataFrame) -> None:
         summary_rows.append({"Target": _pretty(tgt), "Best Model": row["model"], "RMSE": row["rmse"], "R\u00b2": row["r2"]})
     if summary_rows:
         st.markdown("#### Best Model Per Target (All Variables)")
-        st.dataframe(pd.DataFrame(summary_rows).sort_values("Target"), use_container_width=True, hide_index=True)
+        st.dataframe(pd.DataFrame(summary_rows).sort_values("Target"), width="stretch", hide_index=True)
 
 
 # ── Tab: Econometric Results ────────────────────────────────────────────────
@@ -1557,6 +1725,9 @@ def _render_econometric_results() -> None:
         tone="positive" if (ols_available and fe_available and vif_available) else "neutral",
     )
 
+    if ols_available or fe_available:
+        _render_econometric_coefficient_comparison(ols_path, fe_path)
+
     if ols_available:
         with st.expander("OLS Regression Summary", expanded=False):
             st.caption("Pooled OLS treats all observations as independent\u200a\u2014\u200aa useful baseline but does not account for country-level heterogeneity.")
@@ -1587,7 +1758,7 @@ def _render_econometric_results() -> None:
         )
         col_t, col_c = st.columns([1, 2])
         with col_t:
-            st.dataframe(vif_df, use_container_width=True, hide_index=True)
+            st.dataframe(vif_df, width="stretch", hide_index=True)
         with col_c:
             vif_plot = vif_df.copy()
             vif_plot["severity"] = pd.cut(
@@ -1611,7 +1782,7 @@ def _render_econometric_results() -> None:
                 .properties(height=max(250, len(vif_df) * 28))
             )
             rule = alt.Chart(pd.DataFrame({"x": [10]})).mark_rule(color=COLORS["danger"], strokeDash=[6, 4]).encode(x="x:Q")
-            st.altair_chart(vif_chart + rule, use_container_width=True)
+            st.altair_chart(vif_chart + rule, width="stretch")
     else:
         st.info("VIF file not found.")
 
@@ -1733,7 +1904,7 @@ def _render_simulation(df: pd.DataFrame, key_prefix: str = "sim", show_header: b
     rule = alt.Chart(pd.DataFrame({"y": [rule_value]})).mark_rule(
         color=COLORS["danger"], strokeDash=[6, 4]
     ).encode(y="y:Q")
-    st.altair_chart((chart + rule).interactive(), use_container_width=True)
+    st.altair_chart((chart + rule).interactive(), width="stretch")
 
     scenario_uplift = scenario_df[scenario_df["scenario"] != "Baseline (No Change)"].copy()
     avg_uplift = (
@@ -1753,10 +1924,10 @@ def _render_simulation(df: pd.DataFrame, key_prefix: str = "sim", show_header: b
         )
         .properties(height=230)
     )
-    st.altair_chart(avg_chart, use_container_width=True)
+    st.altair_chart(avg_chart, width="stretch")
 
     st.markdown("#### Scenario Summary by Country")
-    st.dataframe(summary_df.sort_values("best_uplift_vs_baseline", ascending=False), use_container_width=True, hide_index=True)
+    st.dataframe(summary_df.sort_values("best_uplift_vs_baseline", ascending=False), width="stretch", hide_index=True)
 
 
 # ── Tab: Policy Recommendations ─────────────────────────────────────────────
@@ -1846,7 +2017,7 @@ def _render_policy_recommendations(show_header: bool = True, key_prefix: str = "
         .properties(height=max(300, len(ranked_df) * 24))
     )
     st.markdown("#### Country Ranking")
-    st.altair_chart(rank_chart, use_container_width=True)
+    st.altair_chart(rank_chart, width="stretch")
 
     if evidence_df is not None and not evidence_df.empty:
         country_evidence = evidence_df[evidence_df["country"] == selected_country].copy()
@@ -1868,7 +2039,7 @@ def _render_policy_recommendations(show_header: bool = True, key_prefix: str = "
                 )
                 .properties(height=300)
             )
-            st.altair_chart(dim_chart, use_container_width=True)
+            st.altair_chart(dim_chart, width="stretch")
 
             strongest = country_evidence.sort_values("dimension_score", ascending=False).iloc[0]
             weakest = country_evidence.sort_values("dimension_score", ascending=True).iloc[0]
@@ -1884,7 +2055,7 @@ def _render_policy_recommendations(show_header: bool = True, key_prefix: str = "
             )
 
     st.markdown("#### Ranked Table")
-    st.dataframe(ranked_df, use_container_width=True, hide_index=True)
+    st.dataframe(ranked_df, width="stretch", hide_index=True)
 
 
 # ── Tab: Story Mode ─────────────────────────────────────────────────────────
@@ -1986,7 +2157,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
                 )
                 .properties(height=260)
             )
-            st.altair_chart(chart, use_container_width=True)
+            st.altair_chart(chart, width="stretch")
 
         _story_section(
             "Decision Layer",
@@ -2051,7 +2222,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
             .properties(height=380)
             .interactive()
         )
-        st.altair_chart(trend_chart, use_container_width=True)
+        st.altair_chart(trend_chart, width="stretch")
 
         latest_year = int(df["year"].max())
         _story_section(
@@ -2071,7 +2242,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
             )
             .properties(height=max(250, len(latest_df) * 24))
         )
-        st.altair_chart(bar, use_container_width=True)
+        st.altair_chart(bar, width="stretch")
 
     # ── Story 2: Gini + Trade Correlation ──
     elif story["id"] == "Story 2":
@@ -2084,7 +2255,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
         if gini_results is not None:
             st.markdown("#### Gini Model Performance Snapshot")
             gini_sorted = gini_results.sort_values("rmse")
-            st.dataframe(gini_sorted, use_container_width=True, hide_index=True)
+            st.dataframe(gini_sorted, width="stretch", hide_index=True)
             if not gini_sorted.empty:
                 gini_best = gini_sorted.iloc[0]
                 gini_r2 = float(gini_best.get("r2", np.nan))
@@ -2115,7 +2286,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
             trend_line = scatter.transform_regression("trade_percent_gdp", "gini_index").mark_line(
                 color=COLORS["danger"], strokeDash=[6, 4]
             )
-            st.altair_chart((scatter + trend_line).interactive().properties(height=400), use_container_width=True)
+            st.altair_chart((scatter + trend_line).interactive().properties(height=400), width="stretch")
 
         preds = prediction_tables.get("gini_index")
         if preds is not None and not preds.empty:
@@ -2144,7 +2315,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
                 )
                 .properties(height=380)
             )
-            st.altair_chart(line.interactive(), use_container_width=True)
+            st.altair_chart(line.interactive(), width="stretch")
 
     # ── Story 3: GDP Competitiveness ──
     elif story["id"] == "Story 3":
@@ -2164,7 +2335,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
         if target_results is not None:
             st.markdown(f"#### {_pretty(target_choice)} Model Performance")
             target_sorted = target_results.sort_values("rmse")
-            st.dataframe(target_sorted, use_container_width=True, hide_index=True)
+            st.dataframe(target_sorted, width="stretch", hide_index=True)
             if not target_sorted.empty:
                 best = target_sorted.iloc[0]
                 best_r2 = float(best.get("r2", np.nan))
@@ -2205,7 +2376,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
             .properties(height=360)
             .interactive()
         )
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width="stretch")
 
         _story_section(
             "Country-Level Error Concentration",
@@ -2231,7 +2402,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
             )
             .properties(height=max(250, len(country_err) * 24))
         )
-        st.altair_chart(err_chart, use_container_width=True)
+        st.altair_chart(err_chart, width="stretch")
 
     # ── Story 6: Ranked Policy Priorities ──
     elif story["id"] == "Story 6":
@@ -2267,7 +2438,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
 
         story4_ranked = story4_results.sort_values("rmse")
         st.markdown(f"#### {_pretty(story4_target)} Model Performance")
-        st.dataframe(story4_ranked, use_container_width=True, hide_index=True)
+        st.dataframe(story4_ranked, width="stretch", hide_index=True)
 
         best_story4 = story4_ranked.iloc[0]
         _story_takeaway(
@@ -2326,7 +2497,7 @@ def _render_story_mode(df: pd.DataFrame) -> None:
         trend_line = scatter.transform_regression(predictor, story4_target).mark_line(
             color=COLORS["danger"], strokeDash=[6, 4]
         )
-        st.altair_chart((scatter + trend_line).interactive(), use_container_width=True)
+        st.altair_chart((scatter + trend_line).interactive(), width="stretch")
 
         _story_section(
             "Sensitivity Preview (Directional)",
