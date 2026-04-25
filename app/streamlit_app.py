@@ -714,90 +714,67 @@ def _parse_panel_ols_coefficients(path: Path) -> pd.DataFrame:
     return pd.DataFrame(rows, columns=["feature", "panel_ols_coef"])
 
 
-def _render_econometric_coefficient_comparison(ols_path: Path, fe_path: Path) -> None:
-    """Render a compact OLS vs Panel OLS coefficient comparison view."""
-    ols_coef_df = _parse_ols_coefficients(ols_path)
+def _render_panel_ols_coefficients(fe_path: Path) -> None:
+    """Render Panel OLS coefficient bar chart and table for presentation."""
     panel_coef_df = _parse_panel_ols_coefficients(fe_path)
-    if "feature" not in ols_coef_df.columns:
-        ols_coef_df = pd.DataFrame(columns=["feature", "ols_coef"])
     if "feature" not in panel_coef_df.columns:
         panel_coef_df = pd.DataFrame(columns=["feature", "panel_ols_coef"])
 
-    if ols_coef_df.empty and panel_coef_df.empty:
-        st.info("Coefficient comparison is unavailable because no coefficient rows were parsed from the model summaries.")
+    if panel_coef_df.empty:
+        st.info("Panel OLS coefficients are unavailable because no coefficient rows were parsed from the model summary.")
         return
 
-    coeff_df = pd.merge(ols_coef_df, panel_coef_df, on="feature", how="outer")
+    coeff_df = panel_coef_df.copy()
     coeff_df = coeff_df[coeff_df["feature"].str.lower() != "const"].copy()
     if coeff_df.empty:
-        st.info("Coefficient comparison is unavailable after excluding intercept (`const`).")
+        st.info("Panel OLS coefficients are unavailable after excluding intercept (`const`).")
         return
-    coeff_df["max_abs_coef"] = coeff_df[["ols_coef", "panel_ols_coef"]].abs().max(axis=1)
+    coeff_df["max_abs_coef"] = coeff_df["panel_ols_coef"].abs()
     coeff_df = coeff_df.sort_values("max_abs_coef", ascending=False).reset_index(drop=True)
     coeff_df["feature_label"] = coeff_df["feature"].map(_pretty)
-    coeff_df["difference_panel_minus_ols"] = coeff_df["panel_ols_coef"] - coeff_df["ols_coef"]
 
-    st.markdown("#### Coefficient Comparison (OLS vs Panel OLS)")
+    st.markdown("#### Panel OLS Coefficients")
     st.caption(
-        "Use this side-by-side view during the presentation to quickly compare sign and magnitude "
-        "changes between pooled OLS and fixed-effects Panel OLS."
+        "Fixed-effects estimates show within-country relationships after absorbing time-invariant country differences."
     )
 
     chart_df = (
-        coeff_df[["feature", "feature_label", "ols_coef", "panel_ols_coef"]]
+        coeff_df[["feature", "feature_label", "panel_ols_coef"]]
         .melt(
             id_vars=["feature", "feature_label"],
-            value_vars=["ols_coef", "panel_ols_coef"],
+            value_vars=["panel_ols_coef"],
             var_name="model",
             value_name="coefficient",
         )
         .dropna(subset=["coefficient"])
     )
-    chart_df["model"] = chart_df["model"].replace(
-        {"ols_coef": "OLS", "panel_ols_coef": "Panel OLS (Fixed Effects)"}
-    )
     feature_sort = coeff_df["feature_label"].tolist()
 
     chart_height = max(260, len(feature_sort) * 26)
-    c_left, c_right = st.columns(2)
-    model_specs = [
-        ("OLS", "OLS Coefficients"),
-        ("Panel OLS (Fixed Effects)", "Panel OLS Coefficients"),
-    ]
-    for (model_name, model_title), container in zip(model_specs, [c_left, c_right]):
-        model_df = chart_df[chart_df["model"] == model_name]
-        if model_df.empty:
-            with container:
-                st.info(f"{model_title} unavailable.")
-            continue
-
-        with container:
-            bars = (
-                alt.Chart(model_df)
-                .mark_bar(color=COLORS["secondary"] if model_name == "OLS" else COLORS["accent"])
-                .encode(
-                    x=alt.X("coefficient:Q", title="Coefficient Value"),
-                    y=alt.Y("feature_label:N", sort=feature_sort, title=""),
-                    tooltip=[
-                        alt.Tooltip("feature_label:N", title="Feature"),
-                        alt.Tooltip("coefficient:Q", title="Coefficient", format=".6f"),
-                    ],
-                )
-                .properties(title=model_title, height=chart_height)
-            )
-            zero_line = alt.Chart(pd.DataFrame({"x": [0]})).mark_rule(
-                color=COLORS["muted"], strokeDash=[4, 4]
-            ).encode(x="x:Q")
-            st.altair_chart(bars + zero_line, width="stretch")
+    bars = (
+        alt.Chart(chart_df)
+        .mark_bar(color=COLORS["accent"])
+        .encode(
+            x=alt.X("coefficient:Q", title="Coefficient Value"),
+            y=alt.Y("feature_label:N", sort=feature_sort, title=""),
+            tooltip=[
+                alt.Tooltip("feature_label:N", title="Feature"),
+                alt.Tooltip("coefficient:Q", title="Coefficient", format=".6f"),
+            ],
+        )
+        .properties(title="Panel OLS (Fixed Effects) Coefficients", height=chart_height)
+    )
+    zero_line = alt.Chart(pd.DataFrame({"x": [0]})).mark_rule(
+        color=COLORS["muted"], strokeDash=[4, 4]
+    ).encode(x="x:Q")
+    st.altair_chart(bars + zero_line, width="stretch")
 
     table_df = coeff_df[
-        ["feature_label", "ols_coef", "panel_ols_coef", "difference_panel_minus_ols"]
+        ["feature_label", "panel_ols_coef"]
     ].rename(
         columns={
             "feature_label": "Feature",
-            "ols_coef": "OLS Coef",
             "panel_ols_coef": "Panel OLS Coef",
-            "difference_panel_minus_ols": "Panel - OLS",
         }
     )
     st.dataframe(table_df, width="stretch", hide_index=True)
@@ -934,7 +911,7 @@ def _render_sidebar(df: pd.DataFrame) -> None:
             "**Story Mode** \u2014 Narrative walkthroughs tied to real policy questions.\n\n"
             "**Data Explorer** \u2014 Filter, browse, and download the panel dataset.\n\n"
             "**Descriptive Analytics** \u2014 Cross-country comparisons and trend analysis.\n\n"
-            "**Econometric Results** \u2014 OLS and Panel OLS regression results.\n\n"
+            "**Econometric Results** \u2014 Panel OLS regression results and diagnostics.\n\n"
             "**Predictive Analytics** \u2014 ML model performance and feature importance.\n\n"
             "**Policy Recommendations** \u2014 Ranked country priorities and stage-template policy bundles.\n\n"
             "**What-If Simulation** \u2014 Policy-impact scenario analysis aligned with recommendation pathways."
@@ -1695,18 +1672,16 @@ def _render_predictive_analytics(df: pd.DataFrame) -> None:
 def _render_econometric_results() -> None:
     st.header("Econometric Results")
     _section_intro(
-        "Classical econometric analysis using Ordinary Least Squares (OLS) and Panel OLS "
-        "with country fixed effects. Fixed effects control for time-invariant differences "
-        "between countries, isolating the within-country relationships between variables. "
-        "VIF diagnostics check for multicollinearity among predictors."
+        "Classical econometric analysis using Panel OLS with country fixed effects. "
+        "Fixed effects control for time-invariant differences between countries, "
+        "isolating within-country relationships between variables. VIF diagnostics "
+        "check for multicollinearity among predictors."
     )
     _glossary_expander(["VIF", "R\u00b2"])
 
-    ols_path = RESULTS_DIR / "ols_summary.txt"
     fe_path = RESULTS_DIR / "fixed_effects_summary.txt"
     vif_path = RESULTS_DIR / "fixed_effects_vif.csv"
     cleaned_path = MODELING_CLEANED_PATH
-    ols_available = ols_path.exists()
     fe_available = fe_path.exists()
     vif_available = vif_path.exists()
 
@@ -1719,21 +1694,13 @@ def _render_econometric_results() -> None:
 
     _insight_callout(
         "Econometric Status",
-        f"OLS summary: {'available' if ols_available else 'missing'}; "
         f"Panel fixed-effects summary: {'available' if fe_available else 'missing'}; "
         f"VIF diagnostics: {'available' if vif_available else 'missing'}.",
-        tone="positive" if (ols_available and fe_available and vif_available) else "neutral",
+        tone="positive" if (fe_available and vif_available) else "neutral",
     )
 
-    if ols_available or fe_available:
-        _render_econometric_coefficient_comparison(ols_path, fe_path)
-
-    if ols_available:
-        with st.expander("OLS Regression Summary", expanded=False):
-            st.caption("Pooled OLS treats all observations as independent\u200a\u2014\u200aa useful baseline but does not account for country-level heterogeneity.")
-            st.code(ols_path.read_text(encoding="utf-8"), language="text")
-    else:
-        st.info("OLS summary not found.")
+    if fe_available:
+        _render_panel_ols_coefficients(fe_path)
 
     if fe_available:
         with st.expander("Panel OLS (Fixed Effects) Summary", expanded=True):
